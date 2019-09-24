@@ -1,0 +1,24 @@
+在exe所在文件夹下打开命令行输入以下调用命令：
+ 调用格式：VTK2GLTF.exe + VTK文件夹绝对路径 + GLTF生成文件输出文件夹地址 + GDAL_DATA文件夹路径
+ 例如：    VTK2GLTF.exe F:/gltf F:/gltf F:/Code/GDAL_DATA
+
+控制台打印信息为：
+VTK文件名称
+经度值
+纬度值
+高度值
+VTK文件名称
+经度值
+纬度值
+高度值
+VTK文件名称
+经度值
+纬度值
+高度值
+...
+...
+...
+
+
+运行目录下GDAL_DATA文件夹放到一个固定目录下，调用程序时将GDAL_DATA文件夹路径传入
+运行目录下data文件夹中是测试vtk数据

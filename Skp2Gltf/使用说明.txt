@@ -1,0 +1,9 @@
+在exe所在文件夹下打开命令行输入以下调用命令：
+ 调用格式：Skp2Gltf.exe + skp文件文件夹绝对路径 + GLTF生成文件输出文件夹地址
+ 例如：    Skp2Gltf.exe F:/gltfTest/ F:/gltfTest/
+
+控制台打印信息为：
+生成gltf文件路径1
+生成gltf文件路径2
+...
+...

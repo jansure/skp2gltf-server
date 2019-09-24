@@ -1,0 +1,1610 @@
+2019/08/13 16:14:54 [info] 13692#456: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:14:54 [info] 13692#456: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:15:05 [notice] 13908#3892: using the "select" event method
+2019/08/13 16:15:05 [notice] 13908#3892: openresty/1.13.6.2
+2019/08/13 16:15:05 [info] 13908#3892: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:15:05 [notice] 13908#3892: start worker processes
+2019/08/13 16:15:05 [notice] 13908#3892: start worker process 16376
+2019/08/13 16:15:05 [notice] 16376#11816: openresty/1.13.6.2
+2019/08/13 16:15:05 [info] 16376#11816: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:15:05 [notice] 16376#11816: create thread 7380
+2019/08/13 16:15:05 [notice] 16376#11816: create thread 3196
+2019/08/13 16:15:05 [notice] 16376#11816: create thread 2340
+2019/08/13 16:15:06 [error] 16376#7380: *1 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:06 [error] 16376#7380: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:57):9: attempt to concatenate local 'out' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:57): in function <content_by_lua(nginx.conf:57):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:09 [error] 16376#7380: *2 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:09 [error] 16376#7380: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:57):9: attempt to concatenate local 'out' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:57): in function <content_by_lua(nginx.conf:57):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:09 [error] 16376#7380: *3 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:09 [error] 16376#7380: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:57):9: attempt to concatenate local 'out' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:57): in function <content_by_lua(nginx.conf:57):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:09 [error] 16376#7380: *4 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:09 [error] 16376#7380: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:57):9: attempt to concatenate local 'out' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:57): in function <content_by_lua(nginx.conf:57):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:15:35 [info] 16376#7380: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:15:35 [info] 16376#7380: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:15:57 [notice] 15712#12912: signal process started
+2019/08/13 16:15:57 [notice] 13908#3892: reconfiguring
+2019/08/13 16:15:57 [notice] 13908#3892: using the "select" event method
+2019/08/13 16:15:57 [notice] 13908#3892: start worker processes
+2019/08/13 16:15:57 [notice] 13908#3892: start worker process 11316
+2019/08/13 16:15:57 [notice] 11316#10616: openresty/1.13.6.2
+2019/08/13 16:15:57 [info] 11316#10616: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:15:57 [notice] 16376#11816: gracefully shutting down
+2019/08/13 16:15:57 [notice] 11316#10616: create thread 2292
+2019/08/13 16:15:57 [notice] 16376#3196: exiting
+2019/08/13 16:15:57 [notice] 11316#10616: create thread 14084
+2019/08/13 16:15:57 [notice] 11316#10616: create thread 13148
+2019/08/13 16:15:57 [notice] 16376#7380: exiting
+2019/08/13 16:15:57 [notice] 16376#11816: exit
+2019/08/13 16:15:57 [notice] 13908#3892: worker process 16376 exited with code 0
+2019/08/13 16:16:00 [error] 11316#2292: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:57):9: attempt to concatenate local 'out' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:57): in function <content_by_lua(nginx.conf:57):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:16:18 [info] 11316#2292: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:16:18 [info] 11316#2292: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:16:46 [notice] 6916#7020: signal process started
+2019/08/13 16:16:46 [notice] 13908#3892: reconfiguring
+2019/08/13 16:16:46 [notice] 13908#3892: using the "select" event method
+2019/08/13 16:16:46 [notice] 13908#3892: start worker processes
+2019/08/13 16:16:46 [notice] 13908#3892: start worker process 14168
+2019/08/13 16:16:46 [notice] 14168#16712: openresty/1.13.6.2
+2019/08/13 16:16:46 [info] 14168#16712: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:16:46 [notice] 11316#10616: gracefully shutting down
+2019/08/13 16:16:46 [notice] 14168#16712: create thread 11628
+2019/08/13 16:16:46 [notice] 11316#14084: exiting
+2019/08/13 16:16:46 [notice] 14168#16712: create thread 11580
+2019/08/13 16:16:46 [notice] 14168#16712: create thread 16680
+2019/08/13 16:16:47 [notice] 11316#2292: exiting
+2019/08/13 16:16:47 [notice] 11316#10616: exit
+2019/08/13 16:16:47 [notice] 13908#3892: worker process 11316 exited with code 0
+2019/08/13 16:17:38 [info] 14168#11628: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:17:38 [info] 14168#11628: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:17:44 [notice] 3412#5932: signal process started
+2019/08/13 16:17:44 [notice] 13908#3892: reconfiguring
+2019/08/13 16:17:44 [notice] 13908#3892: using the "select" event method
+2019/08/13 16:17:44 [notice] 13908#3892: start worker processes
+2019/08/13 16:17:44 [notice] 13908#3892: start worker process 3280
+2019/08/13 16:17:45 [notice] 3280#12000: openresty/1.13.6.2
+2019/08/13 16:17:45 [info] 3280#12000: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:17:45 [notice] 3280#12000: create thread 14192
+2019/08/13 16:17:45 [notice] 14168#16712: gracefully shutting down
+2019/08/13 16:17:45 [notice] 3280#12000: create thread 3348
+2019/08/13 16:17:45 [notice] 14168#11580: exiting
+2019/08/13 16:17:45 [notice] 3280#12000: create thread 10028
+2019/08/13 16:17:45 [notice] 14168#11628: exiting
+2019/08/13 16:17:45 [notice] 14168#16712: exit
+2019/08/13 16:17:45 [notice] 13908#3892: worker process 14168 exited with code 0
+2019/08/13 16:17:47 [error] 3280#14192: *13 failed to load inlined Lua code: content_by_lua(nginx.conf:57):9: unexpected symbol near '#', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:18:05 [notice] 4840#6656: signal process started
+2019/08/13 16:18:05 [notice] 13908#3892: reconfiguring
+2019/08/13 16:18:05 [notice] 13908#3892: using the "select" event method
+2019/08/13 16:18:05 [notice] 13908#3892: start worker processes
+2019/08/13 16:18:05 [notice] 13908#3892: start worker process 14432
+2019/08/13 16:18:05 [notice] 14432#12360: openresty/1.13.6.2
+2019/08/13 16:18:05 [info] 14432#12360: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:18:05 [notice] 14432#12360: create thread 4368
+2019/08/13 16:18:05 [notice] 3280#12000: gracefully shutting down
+2019/08/13 16:18:05 [notice] 3280#3348: exiting
+2019/08/13 16:18:05 [notice] 14432#12360: create thread 10992
+2019/08/13 16:18:05 [notice] 14432#12360: create thread 15552
+2019/08/13 16:18:08 [info] 3280#14192: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:18:08 [info] 3280#14192: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:18:08 [notice] 3280#14192: exiting
+2019/08/13 16:18:08 [notice] 3280#12000: exit
+2019/08/13 16:18:08 [notice] 13908#3892: worker process 3280 exited with code 0
+2019/08/13 16:19:08 [info] 14432#4368: *17 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:19:09 [info] 14432#4368: *18 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:19:24 [notice] 3256#3920: signal process started
+2019/08/13 16:19:24 [notice] 13908#3892: reconfiguring
+2019/08/13 16:19:24 [notice] 13908#3892: using the "select" event method
+2019/08/13 16:19:24 [notice] 13908#3892: start worker processes
+2019/08/13 16:19:24 [notice] 13908#3892: start worker process 7700
+2019/08/13 16:19:24 [notice] 7700#4188: openresty/1.13.6.2
+2019/08/13 16:19:24 [info] 7700#4188: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:19:24 [notice] 14432#12360: gracefully shutting down
+2019/08/13 16:19:24 [notice] 7700#4188: create thread 16048
+2019/08/13 16:19:24 [notice] 14432#10992: exiting
+2019/08/13 16:19:24 [notice] 7700#4188: create thread 8640
+2019/08/13 16:19:24 [notice] 7700#4188: create thread 8148
+2019/08/13 16:19:24 [notice] 14432#4368: exiting
+2019/08/13 16:19:24 [notice] 14432#12360: exit
+2019/08/13 16:19:24 [notice] 13908#3892: worker process 14432 exited with code 0
+2019/08/13 16:19:28 [error] 7700#16048: *19 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"unix:E:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:21:13 [notice] 3412#5528: using the "select" event method
+2019/08/13 16:21:13 [notice] 3412#5528: openresty/1.13.6.2
+2019/08/13 16:21:13 [info] 3412#5528: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:21:13 [notice] 3412#5528: start worker processes
+2019/08/13 16:21:13 [notice] 3412#5528: start worker process 2196
+2019/08/13 16:21:13 [notice] 2196#14080: openresty/1.13.6.2
+2019/08/13 16:21:13 [info] 2196#14080: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:21:13 [notice] 2196#14080: create thread 14116
+2019/08/13 16:21:13 [notice] 2196#14080: create thread 7608
+2019/08/13 16:21:13 [notice] 2196#14080: create thread 15076
+2019/08/13 16:21:39 [info] 2196#14116: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:21:39 [info] 2196#14116: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:26:29 [emerg] 13164#6728: "fastcgi_pass" directive is not allowed here in ./conf/nginx.conf:41
+2019/08/13 16:26:49 [emerg] 6644#11376: "fastcgi_pass" directive is not allowed here in ./conf/nginx.conf:45
+2019/08/13 16:26:59 [info] 2196#14116: *1 client 127.0.0.1 closed keepalive connection
+2019/08/13 16:27:54 [emerg] 10760#3640: the unix domain sockets are not supported on this platform in upstream "unix:E:/workspace/glory-soa-governance/sockproc/tmp/shell.sock" in ./conf/nginx.conf:47
+2019/08/13 16:30:38 [info] 2196#14116: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:30:38 [info] 2196#14116: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:31:56 [emerg] 15196#7536: unknown directive "--" in ./conf/nginx.conf:47
+2019/08/13 16:32:07 [notice] 14900#11336: signal process started
+2019/08/13 16:32:07 [notice] 3412#5528: reconfiguring
+2019/08/13 16:32:07 [notice] 3412#5528: using the "select" event method
+2019/08/13 16:32:07 [notice] 3412#5528: start worker processes
+2019/08/13 16:32:07 [notice] 3412#5528: start worker process 10328
+2019/08/13 16:32:07 [notice] 10328#10308: openresty/1.13.6.2
+2019/08/13 16:32:07 [info] 10328#10308: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:32:07 [notice] 10328#10308: create thread 4188
+2019/08/13 16:32:07 [notice] 2196#14080: gracefully shutting down
+2019/08/13 16:32:07 [notice] 10328#10308: create thread 14252
+2019/08/13 16:32:07 [notice] 2196#7608: exiting
+2019/08/13 16:32:07 [notice] 10328#10308: create thread 15548
+2019/08/13 16:32:08 [notice] 2196#14116: exiting
+2019/08/13 16:32:08 [notice] 2196#14080: exit
+2019/08/13 16:32:08 [notice] 3412#5528: worker process 2196 exited with code 0
+2019/08/13 16:32:37 [info] 10328#4188: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:32:37 [info] 10328#4188: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:36:41 [notice] 4020#2948: signal process started
+2019/08/13 16:36:41 [error] 4020#2948: OpenEvent("Global\ngx_reload_3412") failed (2: The system cannot find the file specified)
+2019/08/13 16:37:03 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:37:03 [notice] 9672#13528: openresty/1.13.6.2
+2019/08/13 16:37:03 [info] 9672#13528: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:37:03 [notice] 9672#13528: start worker processes
+2019/08/13 16:37:03 [notice] 9672#13528: start worker process 1208
+2019/08/13 16:37:03 [notice] 1208#1148: openresty/1.13.6.2
+2019/08/13 16:37:03 [info] 1208#1148: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:37:03 [notice] 1208#1148: create thread 7528
+2019/08/13 16:37:03 [notice] 1208#1148: create thread 16876
+2019/08/13 16:37:03 [notice] 1208#1148: create thread 3924
+2019/08/13 16:37:18 [info] 1208#7528: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:37:18 [info] 1208#7528: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:37:48 [notice] 9280#9168: signal process started
+2019/08/13 16:37:48 [notice] 9672#13528: reconfiguring
+2019/08/13 16:37:48 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:37:48 [notice] 9672#13528: start worker processes
+2019/08/13 16:37:48 [notice] 9672#13528: start worker process 9388
+2019/08/13 16:37:48 [notice] 9388#5428: openresty/1.13.6.2
+2019/08/13 16:37:48 [info] 9388#5428: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:37:48 [notice] 1208#1148: gracefully shutting down
+2019/08/13 16:37:48 [notice] 9388#5428: create thread 12472
+2019/08/13 16:37:48 [notice] 1208#16876: exiting
+2019/08/13 16:37:48 [notice] 9388#5428: create thread 6108
+2019/08/13 16:37:48 [notice] 9388#5428: create thread 5836
+2019/08/13 16:37:48 [notice] 1208#7528: exiting
+2019/08/13 16:37:48 [notice] 1208#1148: exit
+2019/08/13 16:37:48 [notice] 9672#13528: worker process 1208 exited with code 0
+2019/08/13 16:38:55 [info] 9388#12472: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:38:55 [info] 9388#12472: *6 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:44:14 [notice] 18256#18232: signal process started
+2019/08/13 16:44:14 [notice] 9672#13528: reconfiguring
+2019/08/13 16:44:14 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:44:14 [notice] 9672#13528: start worker processes
+2019/08/13 16:44:14 [notice] 9672#13528: start worker process 18252
+2019/08/13 16:44:14 [notice] 18252#18288: openresty/1.13.6.2
+2019/08/13 16:44:14 [info] 18252#18288: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:44:14 [notice] 18252#18288: create thread 18272
+2019/08/13 16:44:14 [notice] 9388#5428: gracefully shutting down
+2019/08/13 16:44:14 [notice] 18252#18288: create thread 18292
+2019/08/13 16:44:14 [notice] 9388#6108: exiting
+2019/08/13 16:44:14 [notice] 18252#18288: create thread 18296
+2019/08/13 16:44:14 [notice] 9388#12472: exiting
+2019/08/13 16:44:14 [notice] 9388#5428: exit
+2019/08/13 16:44:14 [notice] 9672#13528: worker process 9388 exited with code 0
+2019/08/13 16:44:29 [info] 18252#18272: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:44:29 [info] 18252#18272: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:47:46 [info] 18252#18272: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:48:46 [info] 18252#18272: *11 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:50:05 [notice] 4724#15740: signal process started
+2019/08/13 16:50:05 [notice] 9672#13528: reconfiguring
+2019/08/13 16:50:05 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:50:05 [notice] 9672#13528: start worker processes
+2019/08/13 16:50:05 [notice] 9672#13528: start worker process 14100
+2019/08/13 16:50:05 [notice] 14100#15016: openresty/1.13.6.2
+2019/08/13 16:50:05 [info] 14100#15016: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:50:05 [notice] 14100#15016: create thread 15548
+2019/08/13 16:50:05 [notice] 18252#18288: gracefully shutting down
+2019/08/13 16:50:05 [notice] 14100#15016: create thread 16660
+2019/08/13 16:50:05 [notice] 18252#18292: exiting
+2019/08/13 16:50:05 [notice] 14100#15016: create thread 14080
+2019/08/13 16:50:06 [notice] 18252#18272: exiting
+2019/08/13 16:50:06 [notice] 18252#18288: exit
+2019/08/13 16:50:06 [notice] 9672#13528: worker process 18252 exited with code 0
+2019/08/13 16:50:08 [error] 14100#15548: *12 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"E:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:50:10 [error] 14100#15548: *13 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"E:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:50:46 [notice] 12908#9404: signal process started
+2019/08/13 16:50:46 [notice] 9672#13528: reconfiguring
+2019/08/13 16:50:46 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:50:46 [notice] 9672#13528: start worker processes
+2019/08/13 16:50:46 [notice] 9672#13528: start worker process 15236
+2019/08/13 16:50:46 [notice] 15236#16048: openresty/1.13.6.2
+2019/08/13 16:50:46 [info] 15236#16048: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:50:46 [notice] 14100#15016: gracefully shutting down
+2019/08/13 16:50:46 [notice] 15236#16048: create thread 6720
+2019/08/13 16:50:46 [notice] 14100#16660: exiting
+2019/08/13 16:50:46 [notice] 15236#16048: create thread 1624
+2019/08/13 16:50:46 [notice] 15236#16048: create thread 17816
+2019/08/13 16:50:48 [info] 14100#15548: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:50:48 [notice] 14100#15548: exiting
+2019/08/13 16:50:48 [notice] 14100#15016: exit
+2019/08/13 16:50:48 [notice] 9672#13528: worker process 14100 exited with code 0
+2019/08/13 16:50:49 [error] 15236#6720: *15 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:50:52 [error] 15236#6720: *16 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:50:57 [error] 15236#6720: *17 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:50:58 [error] 15236#6720: *18 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:02 [notice] 872#4380: signal process started
+2019/08/13 16:51:02 [notice] 9672#13528: reconfiguring
+2019/08/13 16:51:02 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:51:02 [notice] 9672#13528: start worker processes
+2019/08/13 16:51:02 [notice] 9672#13528: start worker process 10760
+2019/08/13 16:51:02 [notice] 10760#436: openresty/1.13.6.2
+2019/08/13 16:51:02 [info] 10760#436: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:51:02 [notice] 10760#436: create thread 7044
+2019/08/13 16:51:02 [notice] 15236#16048: gracefully shutting down
+2019/08/13 16:51:02 [notice] 10760#436: create thread 5148
+2019/08/13 16:51:02 [notice] 15236#1624: exiting
+2019/08/13 16:51:02 [notice] 10760#436: create thread 16060
+2019/08/13 16:51:04 [error] 15236#6720: *19 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:05 [error] 15236#6720: *20 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:05 [notice] 15236#6720: exiting
+2019/08/13 16:51:05 [notice] 15236#16048: exit
+2019/08/13 16:51:05 [notice] 9672#13528: worker process 15236 exited with code 0
+2019/08/13 16:51:05 [error] 10760#7044: *21 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:06 [error] 10760#7044: *22 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:51 [notice] 8964#17740: signal process started
+2019/08/13 16:51:51 [notice] 9672#13528: reconfiguring
+2019/08/13 16:51:51 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:51:51 [notice] 9672#13528: start worker processes
+2019/08/13 16:51:51 [notice] 9672#13528: start worker process 14036
+2019/08/13 16:51:51 [notice] 14036#15936: openresty/1.13.6.2
+2019/08/13 16:51:51 [info] 14036#15936: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:51:51 [notice] 10760#436: gracefully shutting down
+2019/08/13 16:51:51 [notice] 14036#15936: create thread 18396
+2019/08/13 16:51:51 [notice] 10760#5148: exiting
+2019/08/13 16:51:51 [notice] 14036#15936: create thread 17412
+2019/08/13 16:51:51 [notice] 14036#15936: create thread 4752
+2019/08/13 16:51:54 [info] 10760#7044: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:51:54 [info] 10760#7044: *24 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:51:54 [notice] 10760#7044: exiting
+2019/08/13 16:51:54 [notice] 10760#436: exit
+2019/08/13 16:51:54 [notice] 9672#13528: worker process 10760 exited with code 0
+2019/08/13 16:51:54 [error] 14036#18396: *25 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"e:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:55 [error] 14036#18396: *26 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"e:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:56 [error] 14036#18396: *27 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"e:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:51:56 [error] 14036#18396: *28 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"e:', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:52:31 [notice] 14408#18384: signal process started
+2019/08/13 16:52:31 [notice] 9672#13528: reconfiguring
+2019/08/13 16:52:31 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:52:31 [notice] 9672#13528: start worker processes
+2019/08/13 16:52:31 [notice] 9672#13528: start worker process 18308
+2019/08/13 16:52:31 [notice] 18308#18172: openresty/1.13.6.2
+2019/08/13 16:52:31 [info] 18308#18172: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:52:31 [notice] 14036#15936: gracefully shutting down
+2019/08/13 16:52:31 [notice] 18308#18172: create thread 9488
+2019/08/13 16:52:31 [notice] 14036#17412: exiting
+2019/08/13 16:52:31 [notice] 18308#18172: create thread 7360
+2019/08/13 16:52:31 [notice] 18308#18172: create thread 17296
+2019/08/13 16:52:33 [info] 14036#18396: *29 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:52:33 [notice] 14036#18396: exiting
+2019/08/13 16:52:33 [notice] 14036#15936: exit
+2019/08/13 16:52:33 [notice] 9672#13528: worker process 14036 exited with code 0
+2019/08/13 16:52:33 [error] 18308#9488: *30 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:52:34 [error] 18308#9488: *31 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:52:34 [error] 18308#9488: *32 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:52:34 [error] 18308#9488: *33 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:52:35 [error] 18308#9488: *34 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:53:12 [notice] 18368#5300: signal process started
+2019/08/13 16:53:12 [notice] 9672#13528: reconfiguring
+2019/08/13 16:53:12 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:53:12 [notice] 9672#13528: start worker processes
+2019/08/13 16:53:12 [notice] 9672#13528: start worker process 17904
+2019/08/13 16:53:12 [notice] 17904#128: openresty/1.13.6.2
+2019/08/13 16:53:12 [info] 17904#128: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:53:12 [notice] 18308#18172: gracefully shutting down
+2019/08/13 16:53:12 [notice] 17904#128: create thread 11412
+2019/08/13 16:53:12 [notice] 18308#7360: exiting
+2019/08/13 16:53:12 [notice] 17904#128: create thread 17880
+2019/08/13 16:53:12 [notice] 17904#128: create thread 4020
+2019/08/13 16:53:15 [info] 18308#9488: *35 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:53:15 [notice] 18308#9488: exiting
+2019/08/13 16:53:15 [notice] 18308#18172: exit
+2019/08/13 16:53:15 [notice] 9672#13528: worker process 18308 exited with code 0
+2019/08/13 16:53:15 [error] 17904#11412: *36 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:53:15 [error] 17904#11412: *37 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:53:15 [error] 17904#11412: *38 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:54:16 [info] 17904#11412: *39 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:56:39 [error] 17904#11412: *40 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:56:49 [error] 17904#11412: *41 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:56:54 [notice] 10164#18008: signal process started
+2019/08/13 16:56:54 [notice] 9672#13528: reconfiguring
+2019/08/13 16:56:54 [notice] 9672#13528: using the "select" event method
+2019/08/13 16:56:54 [notice] 9672#13528: start worker processes
+2019/08/13 16:56:54 [notice] 9672#13528: start worker process 12176
+2019/08/13 16:56:54 [notice] 12176#17900: openresty/1.13.6.2
+2019/08/13 16:56:54 [info] 12176#17900: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:56:54 [notice] 12176#17900: create thread 6304
+2019/08/13 16:56:54 [notice] 17904#128: gracefully shutting down
+2019/08/13 16:56:54 [notice] 12176#17900: create thread 3328
+2019/08/13 16:56:54 [notice] 17904#17880: exiting
+2019/08/13 16:56:54 [notice] 12176#17900: create thread 17708
+2019/08/13 16:56:57 [info] 17904#11412: *42 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:56:57 [error] 17904#11412: *43 failed to load inlined Lua code: content_by_lua(nginx.conf:58):4: invalid escape sequence near '"', client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/13 16:56:57 [notice] 17904#11412: exiting
+2019/08/13 16:56:57 [notice] 17904#128: exit
+2019/08/13 16:56:57 [notice] 9672#13528: worker process 17904 exited with code 0
+2019/08/13 16:57:57 [info] 12176#6304: *44 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 16:58:55 [notice] 18352#9060: signal process started
+2019/08/13 16:58:55 [notice] 9672#13528: exiting
+2019/08/13 16:58:55 [notice] 12176#17900: gracefully shutting down
+2019/08/13 16:58:55 [notice] 12176#3328: exiting
+2019/08/13 16:58:55 [notice] 12176#6304: exiting
+2019/08/13 16:58:55 [notice] 12176#17900: exit
+2019/08/13 16:58:55 [notice] 9672#13528: worker process 12176 exited with code 0
+2019/08/13 16:58:55 [notice] 9672#13528: exit
+2019/08/13 16:59:19 [notice] 10020#17852: using the "select" event method
+2019/08/13 16:59:19 [notice] 10020#17852: openresty/1.13.6.2
+2019/08/13 16:59:19 [info] 10020#17852: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:59:19 [notice] 10020#17852: start worker processes
+2019/08/13 16:59:19 [notice] 10020#17852: start worker process 4996
+2019/08/13 16:59:19 [notice] 4996#6924: openresty/1.13.6.2
+2019/08/13 16:59:19 [info] 4996#6924: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 16:59:19 [notice] 4996#6924: create thread 4288
+2019/08/13 16:59:19 [notice] 4996#6924: create thread 17924
+2019/08/13 16:59:19 [notice] 4996#6924: create thread 17716
+2019/08/13 17:00:27 [info] 4996#4288: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:00:27 [info] 4996#4288: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:02:42 [info] 4996#4288: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:05:05 [notice] 18036#18096: signal process started
+2019/08/13 17:05:05 [error] 18036#18096: OpenEvent("Global\ngx_reload_10020") failed (2: The system cannot find the file specified)
+2019/08/13 17:05:19 [notice] 6932#15672: signal process started
+2019/08/13 17:05:19 [error] 6932#15672: OpenEvent("Global\ngx_reload_10020") failed (2: The system cannot find the file specified)
+2019/08/13 17:05:34 [notice] 17984#8140: using the "select" event method
+2019/08/13 17:05:34 [notice] 17984#8140: openresty/1.13.6.2
+2019/08/13 17:05:34 [info] 17984#8140: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:05:34 [notice] 17984#8140: start worker processes
+2019/08/13 17:05:34 [notice] 17984#8140: start worker process 5848
+2019/08/13 17:05:34 [notice] 5848#12004: openresty/1.13.6.2
+2019/08/13 17:05:34 [info] 5848#12004: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:05:34 [notice] 5848#12004: create thread 17808
+2019/08/13 17:05:34 [notice] 5848#12004: create thread 18184
+2019/08/13 17:05:34 [notice] 5848#12004: create thread 16376
+2019/08/13 17:05:53 [info] 5848#17808: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:05:53 [info] 5848#17808: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:06:18 [info] 5848#17808: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:07:50 [info] 5848#17808: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:10:10 [info] 5848#17808: *6 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:10:27 [notice] 17596#1616: using the "select" event method
+2019/08/13 17:10:27 [notice] 17596#1616: openresty/1.13.6.2
+2019/08/13 17:10:27 [info] 17596#1616: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:10:27 [notice] 17596#1616: start worker processes
+2019/08/13 17:10:27 [notice] 17596#1616: start worker process 7428
+2019/08/13 17:10:28 [notice] 7428#5464: openresty/1.13.6.2
+2019/08/13 17:10:28 [info] 7428#5464: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:10:28 [notice] 7428#5464: create thread 9272
+2019/08/13 17:10:28 [notice] 7428#5464: create thread 14704
+2019/08/13 17:10:28 [notice] 7428#5464: create thread 5564
+2019/08/13 17:11:33 [info] 7428#9272: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:11:33 [info] 7428#9272: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:14:11 [notice] 12632#17048: using the "select" event method
+2019/08/13 17:14:11 [notice] 12632#17048: openresty/1.13.6.2
+2019/08/13 17:14:11 [info] 12632#17048: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:14:11 [notice] 12632#17048: start worker processes
+2019/08/13 17:14:11 [notice] 12632#17048: start worker process 18136
+2019/08/13 17:14:11 [notice] 18136#5068: openresty/1.13.6.2
+2019/08/13 17:14:11 [info] 18136#5068: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:14:11 [notice] 18136#5068: create thread 17424
+2019/08/13 17:14:11 [notice] 18136#5068: create thread 5512
+2019/08/13 17:14:11 [notice] 18136#5068: create thread 17348
+2019/08/13 17:14:52 [info] 18136#17424: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:14:52 [info] 18136#17424: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:15:02 [info] 18136#17424: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:20:29 [info] 18136#17424: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:20:32 [notice] 2236#4996: using the "select" event method
+2019/08/13 17:20:32 [notice] 2236#4996: openresty/1.13.6.2
+2019/08/13 17:20:32 [info] 2236#4996: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:20:32 [notice] 2236#4996: start worker processes
+2019/08/13 17:20:32 [notice] 2236#4996: start worker process 11468
+2019/08/13 17:20:32 [notice] 11468#17676: openresty/1.13.6.2
+2019/08/13 17:20:32 [info] 11468#17676: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:20:32 [notice] 11468#17676: create thread 3932
+2019/08/13 17:20:32 [notice] 11468#17676: create thread 2412
+2019/08/13 17:20:32 [notice] 11468#17676: create thread 11040
+2019/08/13 17:20:52 [info] 18136#17424: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:21:10 [notice] 2236#4996: worker process 11468 exited with code 1
+2019/08/13 17:21:10 [notice] 2236#4996: start worker process 9404
+2019/08/13 17:21:10 [notice] 9404#15532: openresty/1.13.6.2
+2019/08/13 17:21:10 [info] 9404#15532: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:21:10 [notice] 9404#15532: create thread 1960
+2019/08/13 17:21:10 [notice] 9404#15532: create thread 332
+2019/08/13 17:21:10 [notice] 9404#15532: create thread 17432
+2019/08/13 17:21:18 [notice] 2236#4996: worker process 9404 exited with code 1
+2019/08/13 17:21:18 [notice] 2236#4996: start worker process 11496
+2019/08/13 17:21:18 [notice] 11496#14528: openresty/1.13.6.2
+2019/08/13 17:21:18 [info] 11496#14528: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:21:18 [notice] 11496#14528: create thread 12676
+2019/08/13 17:21:18 [notice] 11496#14528: create thread 12732
+2019/08/13 17:21:18 [notice] 11496#14528: create thread 7536
+2019/08/13 17:21:36 [notice] 9544#9724: using the "select" event method
+2019/08/13 17:21:36 [notice] 9544#9724: openresty/1.13.6.2
+2019/08/13 17:21:36 [info] 9544#9724: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:21:36 [notice] 9544#9724: start worker processes
+2019/08/13 17:21:36 [notice] 9544#9724: start worker process 3932
+2019/08/13 17:21:36 [notice] 3932#17616: openresty/1.13.6.2
+2019/08/13 17:21:36 [info] 3932#17616: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:21:36 [notice] 3932#17616: create thread 18272
+2019/08/13 17:21:36 [notice] 3932#17616: create thread 5848
+2019/08/13 17:21:36 [notice] 3932#17616: create thread 5068
+2019/08/13 17:21:48 [info] 3932#18272: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:21:48 [info] 3932#18272: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:22:42 [info] 3932#18272: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:23:02 [notice] 17876#18096: using the "select" event method
+2019/08/13 17:23:02 [notice] 17876#18096: openresty/1.13.6.2
+2019/08/13 17:23:02 [info] 17876#18096: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:23:02 [notice] 17876#18096: start worker processes
+2019/08/13 17:23:02 [notice] 17876#18096: start worker process 17452
+2019/08/13 17:23:02 [notice] 17452#5176: openresty/1.13.6.2
+2019/08/13 17:23:02 [info] 17452#5176: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:23:02 [notice] 17452#5176: create thread 17348
+2019/08/13 17:23:02 [notice] 17452#5176: create thread 17808
+2019/08/13 17:23:02 [notice] 17452#5176: create thread 18308
+2019/08/13 17:23:20 [info] 17452#17348: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:24:11 [info] 17452#17348: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:30:12 [notice] 12628#6636: using the "select" event method
+2019/08/13 17:30:12 [notice] 12628#6636: openresty/1.13.6.2
+2019/08/13 17:30:12 [info] 12628#6636: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:30:12 [notice] 12628#6636: start worker processes
+2019/08/13 17:30:12 [notice] 12628#6636: start worker process 3708
+2019/08/13 17:30:12 [notice] 3708#6596: openresty/1.13.6.2
+2019/08/13 17:30:12 [info] 3708#6596: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:30:12 [notice] 3708#6596: create thread 12272
+2019/08/13 17:30:12 [notice] 3708#6596: create thread 7720
+2019/08/13 17:30:12 [notice] 3708#6596: create thread 6708
+2019/08/13 17:30:40 [info] 3708#12272: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:30:40 [info] 3708#12272: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:30:54 [notice] 15608#892: using the "select" event method
+2019/08/13 17:30:54 [notice] 15608#892: openresty/1.13.6.2
+2019/08/13 17:30:54 [info] 15608#892: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:30:54 [notice] 15608#892: start worker processes
+2019/08/13 17:30:54 [notice] 15608#892: start worker process 18224
+2019/08/13 17:30:54 [notice] 18224#11084: openresty/1.13.6.2
+2019/08/13 17:30:54 [info] 18224#11084: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/13 17:30:54 [notice] 18224#11084: create thread 18124
+2019/08/13 17:30:54 [notice] 18224#11084: create thread 17720
+2019/08/13 17:30:54 [notice] 18224#11084: create thread 8484
+2019/08/13 17:31:26 [info] 18224#18124: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:31:26 [info] 18224#18124: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/13 17:36:18 [info] 18224#18124: *1 client 127.0.0.1 closed keepalive connection
+2019/08/14 08:47:08 [notice] 3064#16852: using the "select" event method
+2019/08/14 08:47:08 [notice] 3064#16852: openresty/1.13.6.2
+2019/08/14 08:47:08 [info] 3064#16852: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 08:47:08 [notice] 3064#16852: start worker processes
+2019/08/14 08:47:08 [notice] 3064#16852: start worker process 14468
+2019/08/14 08:47:08 [notice] 14468#6932: openresty/1.13.6.2
+2019/08/14 08:47:08 [info] 14468#6932: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 08:47:08 [notice] 14468#6932: create thread 444
+2019/08/14 08:47:08 [notice] 14468#6932: create thread 16836
+2019/08/14 08:47:08 [notice] 14468#6932: create thread 2028
+2019/08/14 08:47:14 [error] 14468#444: *1 lua entry thread aborted: runtime error: error loading module 'resty.shell' from file 'D:/openform-web/openresty/lualib/resty\shell.lua':
+	D:/openform-web/openresty/lualib/resty\shell.lua:7: unexpected symbol near '<'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:66):2: in function <content_by_lua(nginx.conf:66):1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:47:15 [error] 14468#444: *2 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/test"
+2019/08/14 08:47:25 [info] 14468#444: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 08:48:41 [error] 14468#444: *2 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:48:41 [error] 14468#444: *2 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:49:41 [error] 14468#444: *2 lua tcp socket connect timed out, when connecting to 127.0.0.1:5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:49:41 [info] 14468#444: *2 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2019/08/14 08:49:41 [info] 14468#444: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 08:55:48 [notice] 14440#3996: signal process started
+2019/08/14 08:55:48 [notice] 3064#16852: reconfiguring
+2019/08/14 08:55:48 [notice] 3064#16852: using the "select" event method
+2019/08/14 08:55:48 [notice] 3064#16852: start worker processes
+2019/08/14 08:55:48 [notice] 3064#16852: start worker process 17984
+2019/08/14 08:55:48 [notice] 17984#3116: openresty/1.13.6.2
+2019/08/14 08:55:48 [info] 17984#3116: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 08:55:48 [notice] 17984#3116: create thread 4824
+2019/08/14 08:55:48 [notice] 14468#6932: gracefully shutting down
+2019/08/14 08:55:48 [notice] 17984#3116: create thread 15856
+2019/08/14 08:55:48 [notice] 14468#16836: exiting
+2019/08/14 08:55:48 [notice] 17984#3116: create thread 7444
+2019/08/14 08:55:49 [notice] 14468#444: exiting
+2019/08/14 08:55:49 [notice] 14468#6932: exit
+2019/08/14 08:55:49 [notice] 3064#16852: worker process 14468 exited with code 0
+2019/08/14 08:55:54 [error] 17984#4824: *6 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:55:54 [error] 17984#4824: *6 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:56:54 [info] 17984#4824: *7 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 08:56:54 [error] 17984#4824: *6 lua tcp socket connect timed out, when connecting to 127.0.0.1:5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 08:56:54 [info] 17984#4824: *9 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:02:12 [info] 17984#4824: *6 client 127.0.0.1 closed keepalive connection
+2019/08/14 09:03:35 [notice] 7380#11304: signal process started
+2019/08/14 09:03:35 [notice] 3064#16852: reconfiguring
+2019/08/14 09:03:35 [notice] 3064#16852: using the "select" event method
+2019/08/14 09:03:35 [notice] 3064#16852: start worker processes
+2019/08/14 09:03:35 [notice] 3064#16852: start worker process 1616
+2019/08/14 09:03:35 [notice] 1616#14504: openresty/1.13.6.2
+2019/08/14 09:03:35 [info] 1616#14504: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 09:03:35 [notice] 1616#14504: create thread 6348
+2019/08/14 09:03:35 [notice] 17984#3116: gracefully shutting down
+2019/08/14 09:03:35 [notice] 17984#15856: exiting
+2019/08/14 09:03:35 [notice] 1616#14504: create thread 1084
+2019/08/14 09:03:35 [notice] 1616#14504: create thread 1892
+2019/08/14 09:03:35 [notice] 17984#4824: exiting
+2019/08/14 09:03:35 [notice] 17984#3116: exit
+2019/08/14 09:03:35 [notice] 3064#16852: worker process 17984 exited with code 0
+2019/08/14 09:03:40 [error] 1616#6348: *10 [lua] shell.lua:36: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:03:40 [error] 1616#6348: *10 [lua] shell.lua:37: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:04:40 [info] 1616#6348: *11 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:04:40 [error] 1616#6348: *10 lua tcp socket connect timed out, when connecting to 127.0.0.1:5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:04:40 [info] 1616#6348: *13 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:04:58 [notice] 5880#3284: signal process started
+2019/08/14 09:04:58 [notice] 3064#16852: reconfiguring
+2019/08/14 09:04:58 [notice] 3064#16852: using the "select" event method
+2019/08/14 09:04:58 [notice] 3064#16852: start worker processes
+2019/08/14 09:04:58 [notice] 3064#16852: start worker process 2020
+2019/08/14 09:04:58 [notice] 2020#18352: openresty/1.13.6.2
+2019/08/14 09:04:58 [info] 2020#18352: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 09:04:58 [notice] 1616#14504: gracefully shutting down
+2019/08/14 09:04:58 [notice] 2020#18352: create thread 10900
+2019/08/14 09:04:58 [notice] 1616#1084: exiting
+2019/08/14 09:04:58 [notice] 2020#18352: create thread 8
+2019/08/14 09:04:58 [notice] 2020#18352: create thread 6912
+2019/08/14 09:04:59 [notice] 1616#6348: exiting
+2019/08/14 09:04:59 [notice] 1616#14504: exit
+2019/08/14 09:04:59 [notice] 3064#16852: worker process 1616 exited with code 0
+2019/08/14 09:05:03 [error] 2020#10900: *14 [lua] shell.lua:36: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:05:03 [error] 2020#10900: *14 [lua] shell.lua:37: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:06:03 [info] 2020#10900: *15 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:06:03 [error] 2020#10900: *14 lua tcp socket connect timed out, when connecting to 127.0.0.1:5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:06:04 [info] 2020#10900: *17 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:12:19 [info] 2020#10900: *14 client 127.0.0.1 closed keepalive connection
+2019/08/14 09:12:20 [error] 2020#10900: *18 [lua] shell.lua:36: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:12:20 [error] 2020#10900: *18 [lua] shell.lua:37: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:12:20 [error] 2020#10900: *18 [lua] shell.lua:54: execute(): ----cmd----uname -a, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:12:20 [error] 2020#10900: *18 [lua] shell.lua:55: execute(): ---- #input_data----0, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:12:23 [error] 2020#10900: *18 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:13:20 [info] 2020#10900: *19 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:13:20 [info] 2020#10900: *21 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:17:34 [info] 2020#10900: *18 client 127.0.0.1 closed keepalive connection
+2019/08/14 09:24:37 [notice] 248#8868: signal process started
+2019/08/14 09:24:37 [notice] 3064#16852: reconfiguring
+2019/08/14 09:24:37 [notice] 3064#16852: using the "select" event method
+2019/08/14 09:24:37 [notice] 3064#16852: start worker processes
+2019/08/14 09:24:37 [notice] 3064#16852: start worker process 9928
+2019/08/14 09:24:37 [notice] 9928#12324: openresty/1.13.6.2
+2019/08/14 09:24:37 [info] 9928#12324: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 09:24:37 [notice] 9928#12324: create thread 10132
+2019/08/14 09:24:37 [notice] 2020#18352: gracefully shutting down
+2019/08/14 09:24:37 [notice] 9928#12324: create thread 16016
+2019/08/14 09:24:37 [notice] 2020#8: exiting
+2019/08/14 09:24:37 [notice] 9928#12324: create thread 13624
+2019/08/14 09:24:37 [notice] 2020#10900: exiting
+2019/08/14 09:24:37 [notice] 2020#18352: exit
+2019/08/14 09:24:37 [notice] 3064#16852: worker process 2020 exited with code 0
+2019/08/14 09:24:42 [error] 9928#10132: *22 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:24:42 [error] 9928#10132: *22 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:12 [info] 9928#10132: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:25:12 [info] 9928#10132: *25 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:25:12 [error] 9928#10132: *26 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:12 [error] 9928#10132: *26 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:12 [error] 9928#10132: *26 [lua] shell.lua:52: execute(): ----cmd----/cygdrive/d/openform-web/VTKRelease/VTK2GLTF.exe `cygpath -w /cygdrive/d/openform-web/VTKRelease/data/windpressure_building_11.vtk` `cygpath -w  /cygdrive/d/openform-web/VTKRelease/data` `cygpath -w /cygdrive/d/openform-web/VTKRelease/GDAL_DATA`, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:12 [error] 9928#10132: *26 [lua] shell.lua:53: execute(): ---- #input_data----0, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:15 [error] 9928#10132: *26 lua tcp socket read timed out, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:42 [error] 9928#10132: *22 lua tcp socket connect timed out, when connecting to 127.0.0.1:5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:25:42 [info] 9928#10132: *22 client 127.0.0.1 closed keepalive connection (10053: An established connection was aborted by the software in your host machine)
+2019/08/14 09:26:12 [info] 9928#10132: *27 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:26:13 [info] 9928#10132: *29 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:28:14 [notice] 5312#5828: signal process started
+2019/08/14 09:28:14 [notice] 3064#16852: reconfiguring
+2019/08/14 09:28:14 [notice] 3064#16852: using the "select" event method
+2019/08/14 09:28:14 [notice] 3064#16852: start worker processes
+2019/08/14 09:28:14 [notice] 3064#16852: start worker process 15828
+2019/08/14 09:28:14 [notice] 15828#1988: openresty/1.13.6.2
+2019/08/14 09:28:14 [info] 15828#1988: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 09:28:14 [notice] 15828#1988: create thread 7620
+2019/08/14 09:28:14 [notice] 9928#12324: gracefully shutting down
+2019/08/14 09:28:14 [notice] 15828#1988: create thread 15908
+2019/08/14 09:28:14 [notice] 9928#16016: exiting
+2019/08/14 09:28:14 [notice] 15828#1988: create thread 18028
+2019/08/14 09:28:14 [notice] 9928#10132: exiting
+2019/08/14 09:28:14 [notice] 9928#12324: exit
+2019/08/14 09:28:14 [notice] 3064#16852: worker process 9928 exited with code 0
+2019/08/14 09:28:18 [info] 15828#7620: *30 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:28:18 [info] 15828#7620: *30 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:28:18 [info] 15828#7620: *30 [lua] shell.lua:52: execute(): ----cmd----/cygdrive/d/openform-web/VTKRelease/VTK2GLTF.exe `cygpath -w /cygdrive/d/openform-web/VTKRelease/data/windpressure_building_11.vtk` `cygpath -w  /cygdrive/d/openform-web/VTKRelease/data` `cygpath -w /cygdrive/d/openform-web/VTKRelease/GDAL_DATA`, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:28:18 [info] 15828#7620: *30 [lua] shell.lua:53: execute(): ---- #input_data----2, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:28:19 [error] 15828#7620: *30 [lua] shell.lua:62: execute(): ---receive status code ----status:11, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:29:18 [info] 15828#7620: *31 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:29:18 [info] 15828#7620: *33 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:34:10 [info] 15828#7620: *30 client 127.0.0.1 closed keepalive connection
+2019/08/14 09:43:37 [notice] 11056#13756: signal process started
+2019/08/14 09:43:37 [notice] 3064#16852: reconfiguring
+2019/08/14 09:43:37 [notice] 3064#16852: using the "select" event method
+2019/08/14 09:43:37 [notice] 3064#16852: start worker processes
+2019/08/14 09:43:37 [notice] 3064#16852: start worker process 18364
+2019/08/14 09:43:38 [notice] 18364#4536: openresty/1.13.6.2
+2019/08/14 09:43:38 [info] 18364#4536: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 09:43:38 [notice] 18364#4536: create thread 14688
+2019/08/14 09:43:38 [notice] 15828#1988: gracefully shutting down
+2019/08/14 09:43:38 [notice] 18364#4536: create thread 14184
+2019/08/14 09:43:38 [notice] 15828#15908: exiting
+2019/08/14 09:43:38 [notice] 18364#4536: create thread 14856
+2019/08/14 09:43:38 [notice] 15828#7620: exiting
+2019/08/14 09:43:38 [notice] 15828#1988: exit
+2019/08/14 09:43:38 [notice] 3064#16852: worker process 15828 exited with code 0
+2019/08/14 09:43:44 [info] 18364#14688: *34 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:43:44 [info] 18364#14688: *34 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:43:44 [info] 18364#14688: *34 [lua] shell.lua:52: execute(): ----cmd----/cygdrive/d/openform-web/VTKRelease/VTK2GLTF.exe `cygpath -w /cygdrive/d/openform-web/VTKRelease/data/windpressure_building_11.vtk` `cygpath -w  /cygdrive/d/openform-web/VTKRelease/data` `cygpath -w /cygdrive/d/openform-web/VTKRelease/GDAL_DATA`, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:43:44 [info] 18364#14688: *34 [lua] shell.lua:53: execute(): ---- #input_data----2, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:43:46 [error] 18364#14688: *34 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:43:46 [error] 18364#14688: *34 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/VTK2GLTF.lua:14: attempt to concatenate local 'err' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/VTK2GLTF.lua: in function <D:/openform-web/openresty/lua-script/VTK2GLTF.lua:1>, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:43:57 [info] 18364#14688: *35 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:43:57 [info] 18364#14688: *37 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:45:21 [notice] 6668#9480: signal process started
+2019/08/14 09:45:21 [notice] 3064#16852: reconfiguring
+2019/08/14 09:45:21 [notice] 3064#16852: using the "select" event method
+2019/08/14 09:45:21 [notice] 3064#16852: start worker processes
+2019/08/14 09:45:21 [notice] 3064#16852: start worker process 14852
+2019/08/14 09:45:21 [notice] 14852#9284: openresty/1.13.6.2
+2019/08/14 09:45:21 [info] 14852#9284: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 09:45:21 [notice] 18364#4536: gracefully shutting down
+2019/08/14 09:45:21 [notice] 14852#9284: create thread 10064
+2019/08/14 09:45:21 [notice] 18364#14184: exiting
+2019/08/14 09:45:21 [notice] 14852#9284: create thread 1944
+2019/08/14 09:45:21 [notice] 14852#9284: create thread 18064
+2019/08/14 09:45:21 [notice] 18364#14688: exiting
+2019/08/14 09:45:21 [notice] 18364#4536: exit
+2019/08/14 09:45:21 [notice] 3064#16852: worker process 18364 exited with code 0
+2019/08/14 09:45:24 [info] 14852#10064: *38 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:45:24 [info] 14852#10064: *38 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:45:24 [info] 14852#10064: *38 [lua] shell.lua:52: execute(): ----cmd----/cygdrive/d/openform-web/VTKRelease/VTK2GLTF.exe `cygpath -w /cygdrive/d/openform-web/VTKRelease/data/windpressure_building_11.vtk` `cygpath -w  /cygdrive/d/openform-web/VTKRelease/data` `cygpath -w /cygdrive/d/openform-web/VTKRelease/GDAL_DATA`, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:45:24 [info] 14852#10064: *38 [lua] shell.lua:53: execute(): ---- #input_data----2, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:45:26 [error] 14852#10064: *38 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 09:45:37 [info] 14852#10064: *39 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:45:37 [info] 14852#10064: *41 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 09:51:14 [info] 14852#10064: *38 client 127.0.0.1 closed keepalive connection
+2019/08/14 10:38:19 [notice] 9816#11716: signal process started
+2019/08/14 10:38:19 [notice] 3064#16852: reconfiguring
+2019/08/14 10:38:19 [notice] 3064#16852: using the "select" event method
+2019/08/14 10:38:19 [notice] 3064#16852: start worker processes
+2019/08/14 10:38:19 [notice] 3064#16852: start worker process 14404
+2019/08/14 10:38:19 [notice] 14404#9464: openresty/1.13.6.2
+2019/08/14 10:38:19 [info] 14404#9464: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 10:38:19 [notice] 14404#9464: create thread 1304
+2019/08/14 10:38:19 [notice] 14852#9284: gracefully shutting down
+2019/08/14 10:38:19 [notice] 14404#9464: create thread 3940
+2019/08/14 10:38:19 [notice] 14852#1944: exiting
+2019/08/14 10:38:19 [notice] 14404#9464: create thread 15512
+2019/08/14 10:38:19 [notice] 14852#10064: exiting
+2019/08/14 10:38:19 [notice] 14852#9284: exit
+2019/08/14 10:38:19 [notice] 3064#16852: worker process 14852 exited with code 0
+2019/08/14 10:38:33 [error] 14404#1304: *42 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/process_status.lua:3: module 'argsUtil' not found:
+	no field package.preload['argsUtil']
+	no file 'D:/openform-web/openresty/lualib/argsUtil.lua'
+	no file './site/lualib/argsUtil.ljbc'
+	no file './site/lualib/argsUtil/init.ljbc'
+	no file './lualib/argsUtil.ljbc'
+	no file './lualib/argsUtil/init.ljbc'
+	no file './site/lualib/argsUtil.lua'
+	no file './site/lualib/argsUtil/init.lua'
+	no file './lualib/argsUtil.lua'
+	no file './lualib/argsUtil/init.lua'
+	no file '.\argsUtil.lua'
+	no file 'D:\openform-web\openresty\lualib\argsUtil.lua'
+	no file 'D:\openform-web\openresty\lua\argsUtil.lua'
+	no file 'D:\openform-web\openresty\lua\argsUtil\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\argsUtil.luac'
+	no file 'D:/openform-web/openresty/lualib/argsUtil.so'
+	no file './site/lualib/argsUtil.so'
+	no file './lualib/argsUtil.so'
+	no file '.\argsUtil.dll'
+	no file 'D:\openform-web\openresty\lualib\argsUtil.so'
+	no file 'D:\openform-web\openresty\argsUtil.dll'
+	no file 'D:\openform-web\openresty\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/process_status.lua:3: in function <D:/openform-web/openresty/lua-script/process_status.lua:1>, client: 127.0.0.1, server: , request: "GET /queryproc HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:38:44 [info] 14404#1304: *43 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:38:44 [info] 14404#1304: *44 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:38:44 [error] 14404#1304: *45 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/process_status.lua:3: module 'argsUtil' not found:
+	no field package.preload['argsUtil']
+	no file 'D:/openform-web/openresty/lualib/argsUtil.lua'
+	no file './site/lualib/argsUtil.ljbc'
+	no file './site/lualib/argsUtil/init.ljbc'
+	no file './lualib/argsUtil.ljbc'
+	no file './lualib/argsUtil/init.ljbc'
+	no file './site/lualib/argsUtil.lua'
+	no file './site/lualib/argsUtil/init.lua'
+	no file './lualib/argsUtil.lua'
+	no file './lualib/argsUtil/init.lua'
+	no file '.\argsUtil.lua'
+	no file 'D:\openform-web\openresty\lualib\argsUtil.lua'
+	no file 'D:\openform-web\openresty\lua\argsUtil.lua'
+	no file 'D:\openform-web\openresty\lua\argsUtil\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\argsUtil.luac'
+	no file 'D:/openform-web/openresty/lualib/argsUtil.so'
+	no file './site/lualib/argsUtil.so'
+	no file './lualib/argsUtil.so'
+	no file '.\argsUtil.dll'
+	no file 'D:\openform-web\openresty\lualib\argsUtil.so'
+	no file 'D:\openform-web\openresty\argsUtil.dll'
+	no file 'D:\openform-web\openresty\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/process_status.lua:3: in function <D:/openform-web/openresty/lua-script/process_status.lua:1>, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:39:44 [info] 14404#1304: *46 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:39:44 [info] 14404#1304: *47 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:40:11 [error] 14404#1304: *48 lua entry thread aborted: runtime error: D:/openform-web/openresty/lualib/argsUtil.lua:6: module 'inspect' not found:
+	no field package.preload['inspect']
+	no file 'D:/openform-web/openresty/lualib/inspect.lua'
+	no file './site/lualib/inspect.ljbc'
+	no file './site/lualib/inspect/init.ljbc'
+	no file './lualib/inspect.ljbc'
+	no file './lualib/inspect/init.ljbc'
+	no file './site/lualib/inspect.lua'
+	no file './site/lualib/inspect/init.lua'
+	no file './lualib/inspect.lua'
+	no file './lualib/inspect/init.lua'
+	no file '.\inspect.lua'
+	no file 'D:\openform-web\openresty\lualib\inspect.lua'
+	no file 'D:\openform-web\openresty\lua\inspect.lua'
+	no file 'D:\openform-web\openresty\lua\inspect\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\inspect.luac'
+	no file 'D:/openform-web/openresty/lualib/inspect.so'
+	no file './site/lualib/inspect.so'
+	no file './lualib/inspect.so'
+	no file '.\inspect.dll'
+	no file 'D:\openform-web\openresty\lualib\inspect.so'
+	no file 'D:\openform-web\openresty\inspect.dll'
+	no file 'D:\openform-web\openresty\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/process_status.lua:3: in function <D:/openform-web/openresty/lua-script/process_status.lua:1>, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:40:59 [info] 14404#1304: *49 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:40:59 [info] 14404#1304: *50 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:40:59 [error] 14404#1304: *51 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/process_status.lua:3: loop or previous error loading module 'argsUtil'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/process_status.lua:3: in function <D:/openform-web/openresty/lua-script/process_status.lua:1>, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:41:59 [info] 14404#1304: *52 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:42:00 [info] 14404#1304: *53 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:42:19 [notice] 7424#13428: signal process started
+2019/08/14 10:42:19 [notice] 3064#16852: reconfiguring
+2019/08/14 10:42:19 [notice] 3064#16852: using the "select" event method
+2019/08/14 10:42:19 [notice] 3064#16852: start worker processes
+2019/08/14 10:42:19 [notice] 3064#16852: start worker process 15680
+2019/08/14 10:42:19 [notice] 15680#9996: openresty/1.13.6.2
+2019/08/14 10:42:19 [info] 15680#9996: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 10:42:19 [notice] 14404#9464: gracefully shutting down
+2019/08/14 10:42:19 [notice] 15680#9996: create thread 5668
+2019/08/14 10:42:19 [notice] 14404#3940: exiting
+2019/08/14 10:42:19 [notice] 15680#9996: create thread 14128
+2019/08/14 10:42:19 [notice] 15680#9996: create thread 17368
+2019/08/14 10:42:19 [notice] 14404#1304: exiting
+2019/08/14 10:42:19 [notice] 14404#9464: exit
+2019/08/14 10:42:19 [notice] 3064#16852: worker process 14404 exited with code 0
+2019/08/14 10:42:22 [info] 15680#5668: *54 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:22 [info] 15680#5668: *54 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:22 [info] 15680#5668: *54 [lua] shell.lua:52: execute(): ----cmd----tasklist | findstr , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:22 [info] 15680#5668: *54 [lua] shell.lua:53: execute(): ---- #input_data----7, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:22 [error] 15680#5668: *54 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:39 [info] 15680#5668: *55 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:42:39 [info] 15680#5668: *54 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:39 [info] 15680#5668: *54 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:39 [info] 15680#5668: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:42:39 [info] 15680#5668: *54 [lua] shell.lua:52: execute(): ----cmd----tasklist | findstr , client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:39 [info] 15680#5668: *54 [lua] shell.lua:53: execute(): ---- #input_data----9, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:42:40 [error] 15680#5668: *54 [lua] shell.lua:62: execute(): ---receive status code ----status:256, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:43:40 [info] 15680#5668: *59 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:45:39 [info] 15680#5668: *54 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:45:39 [info] 15680#5668: *54 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:45:39 [info] 15680#5668: *54 [lua] shell.lua:52: execute(): ----cmd----tasklist | findstr , client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:45:39 [info] 15680#5668: *54 [lua] shell.lua:53: execute(): ---- #input_data----9, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:45:40 [error] 15680#5668: *54 [lua] shell.lua:62: execute(): ---receive status code ----status:256, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:46:39 [info] 15680#5668: *61 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:48:55 [info] 15680#5668: *54 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:48:55 [info] 15680#5668: *54 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:48:55 [info] 15680#5668: *54 [lua] shell.lua:52: execute(): ----cmd----tasklist | findstr , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:48:55 [info] 15680#5668: *54 [lua] shell.lua:53: execute(): ---- #input_data----7, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:48:55 [error] 15680#5668: *54 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:49:41 [info] 15680#5668: *63 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:49:41 [info] 15680#5668: *54 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:49:41 [info] 15680#5668: *54 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:49:41 [info] 15680#5668: *54 [lua] shell.lua:52: execute(): ----cmd----tasklist | findstr , client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:49:41 [info] 15680#5668: *54 [lua] shell.lua:53: execute(): ---- #input_data----4, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:49:41 [error] 15680#5668: *54 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:50:20 [info] 15680#5668: *65 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:55:35 [notice] 14160#14572: signal process started
+2019/08/14 10:55:35 [notice] 3064#16852: reconfiguring
+2019/08/14 10:55:35 [notice] 3064#16852: using the "select" event method
+2019/08/14 10:55:35 [notice] 3064#16852: start worker processes
+2019/08/14 10:55:35 [notice] 3064#16852: start worker process 4824
+2019/08/14 10:55:35 [notice] 4824#4368: openresty/1.13.6.2
+2019/08/14 10:55:35 [info] 4824#4368: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 10:55:35 [notice] 15680#9996: gracefully shutting down
+2019/08/14 10:55:35 [notice] 4824#4368: create thread 492
+2019/08/14 10:55:35 [notice] 15680#14128: exiting
+2019/08/14 10:55:35 [notice] 4824#4368: create thread 9180
+2019/08/14 10:55:35 [notice] 4824#4368: create thread 16744
+2019/08/14 10:55:35 [notice] 15680#5668: exiting
+2019/08/14 10:55:35 [notice] 15680#9996: exit
+2019/08/14 10:55:35 [notice] 3064#16852: worker process 15680 exited with code 0
+2019/08/14 10:55:40 [info] 4824#492: *66 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:40 [info] 4824#492: *66 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:40 [info] 4824#492: *66 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:40 [info] 4824#492: *66 [lua] shell.lua:53: execute(): ---- #input_data----17, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:41 [error] 4824#492: *66 [lua] shell.lua:62: execute(): ---receive status code ----status:256, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:41 [info] 4824#492: *66 [lua] process_status.lua:30: process shell status:256, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:41 [info] 4824#492: *66 [lua] process_status.lua:31: process shell out:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:41 [error] 4824#492: *66 [lua] process_status.lua:32: process shell err:错误: 无效参数/选项 - 'eq'。
+键入 "TASKLIST /?" 以了解用法。
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=ng HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [info] 4824#492: *67 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:55:55 [info] 4824#492: *66 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [info] 4824#492: *66 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [info] 4824#492: *69 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:55:55 [info] 4824#492: *66 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [info] 4824#492: *66 [lua] shell.lua:53: execute(): ---- #input_data----24, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [error] 4824#492: *66 [lua] shell.lua:62: execute(): ---receive status code ----status:256, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [info] 4824#492: *66 [lua] process_status.lua:30: process shell status:256, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [info] 4824#492: *66 [lua] process_status.lua:31: process shell out:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:55:55 [error] 4824#492: *66 [lua] process_status.lua:32: process shell err:错误: 无效参数/选项 - 'eq'。
+键入 "TASKLIST /?" 以了解用法。
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx.exe HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:56:55 [info] 4824#492: *71 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:57:06 [notice] 18064#17664: signal process started
+2019/08/14 10:57:06 [notice] 3064#16852: reconfiguring
+2019/08/14 10:57:06 [notice] 3064#16852: using the "select" event method
+2019/08/14 10:57:06 [notice] 3064#16852: start worker processes
+2019/08/14 10:57:06 [notice] 3064#16852: start worker process 5784
+2019/08/14 10:57:06 [notice] 5784#17572: openresty/1.13.6.2
+2019/08/14 10:57:06 [info] 5784#17572: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 10:57:06 [notice] 4824#4368: gracefully shutting down
+2019/08/14 10:57:06 [notice] 5784#17572: create thread 13692
+2019/08/14 10:57:06 [notice] 4824#9180: exiting
+2019/08/14 10:57:06 [notice] 5784#17572: create thread 2468
+2019/08/14 10:57:06 [notice] 5784#17572: create thread 3160
+2019/08/14 10:57:06 [notice] 4824#492: exiting
+2019/08/14 10:57:06 [notice] 4824#4368: exit
+2019/08/14 10:57:06 [notice] 3064#16852: worker process 4824 exited with code 0
+2019/08/14 10:57:12 [info] 5784#13692: *72 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [info] 5784#13692: *72 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [info] 5784#13692: *72 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [info] 5784#13692: *72 [lua] shell.lua:53: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [error] 5784#13692: *72 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [info] 5784#13692: *72 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [info] 5784#13692: *72 [lua] process_status.lua:31: process shell out:
+映像名称                       PID 会话名              会话#       内存使用 
+========================= ======== ================ =========== ============
+nginx.exe                     3064 Console                    3      7,716 K
+nginx.exe                     5784 Console                    3      8,408 K
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:12 [error] 5784#13692: *72 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:57:58 [notice] 9328#6512: signal process started
+2019/08/14 10:57:58 [notice] 3064#16852: reconfiguring
+2019/08/14 10:57:58 [notice] 3064#16852: using the "select" event method
+2019/08/14 10:57:58 [notice] 3064#16852: start worker processes
+2019/08/14 10:57:58 [notice] 3064#16852: start worker process 14120
+2019/08/14 10:57:58 [notice] 14120#11960: openresty/1.13.6.2
+2019/08/14 10:57:58 [info] 14120#11960: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 10:57:58 [notice] 5784#17572: gracefully shutting down
+2019/08/14 10:57:58 [notice] 14120#11960: create thread 14024
+2019/08/14 10:57:58 [notice] 5784#2468: exiting
+2019/08/14 10:57:58 [notice] 14120#11960: create thread 7532
+2019/08/14 10:57:58 [notice] 14120#11960: create thread 11300
+2019/08/14 10:58:00 [info] 5784#13692: *74 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:00 [info] 5784#13692: *75 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:00 [notice] 5784#13692: exiting
+2019/08/14 10:58:00 [notice] 5784#17572: exit
+2019/08/14 10:58:00 [notice] 3064#16852: worker process 5784 exited with code 0
+2019/08/14 10:58:01 [info] 14120#14024: *76 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [info] 14120#14024: *76 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [info] 14120#14024: *76 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [info] 14120#14024: *76 [lua] shell.lua:53: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [error] 14120#14024: *76 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [info] 14120#14024: *76 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [info] 14120#14024: *76 [lua] process_status.lua:31: process shell out:
+映像名称                       PID 会话名              会话#       内存使用 
+========================= ======== ================ =========== ============
+nginx.exe                     3064 Console                    3      7,704 K
+nginx.exe                    14120 Console                    3      8,420 K
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:01 [error] 14120#14024: *76 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [info] 14120#14024: *77 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:11 [info] 14120#14024: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:11 [info] 14120#14024: *76 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [info] 14120#14024: *76 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [info] 14120#14024: *76 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [info] 14120#14024: *76 [lua] shell.lua:53: execute(): ---- #input_data----28, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [error] 14120#14024: *76 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [info] 14120#14024: *76 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [info] 14120#14024: *76 [lua] process_status.lua:31: process shell out:
+映像名称                       PID 会话名              会话#       内存使用 
+========================= ======== ================ =========== ============
+Postman.exe                  16696 Console                    3    148,296 K
+Postman.exe                  14420 Console                    3     87,884 K
+Postman.exe                   5776 Console                    3     42,240 K
+Postman.exe                  17756 Console                    3     54,044 K
+Postman.exe                   5204 Console                    3    157,196 K
+Postman.exe                  13512 Console                    3     55,056 K
+Postman.exe                   9552 Console                    3    285,040 K
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:11 [error] 14120#14024: *76 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=postman HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:22 [info] 14120#14024: *81 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:22 [info] 14120#14024: *76 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:22 [info] 14120#14024: *76 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:22 [info] 14120#14024: *76 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:22 [info] 14120#14024: *76 [lua] shell.lua:53: execute(): ---- #input_data----25, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:23 [error] 14120#14024: *76 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:23 [info] 14120#14024: *76 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:23 [info] 14120#14024: *76 [lua] process_status.lua:31: process shell out:信息: 没有运行的任务匹配指定标准。
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:23 [error] 14120#14024: *76 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=post HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [info] 14120#14024: *83 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:38 [info] 14120#14024: *76 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [info] 14120#14024: *76 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [info] 14120#14024: *76 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [info] 14120#14024: *76 [lua] shell.lua:53: execute(): ---- #input_data----23, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [error] 14120#14024: *76 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [info] 14120#14024: *76 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [info] 14120#14024: *76 [lua] process_status.lua:31: process shell out:信息: 没有运行的任务匹配指定标准。
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:38 [error] 14120#14024: *76 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=qq HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:42 [info] 14120#14024: *76 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:42 [info] 14120#14024: *76 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:42 [info] 14120#14024: *76 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:42 [info] 14120#14024: *76 [lua] shell.lua:53: execute(): ---- #input_data----23, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:43 [error] 14120#14024: *76 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:43 [info] 14120#14024: *76 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:43 [info] 14120#14024: *76 [lua] process_status.lua:31: process shell out:信息: 没有运行的任务匹配指定标准。
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:43 [error] 14120#14024: *76 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=QQ HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:59 [info] 14120#14024: *85 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 10:58:59 [info] 14120#14024: *76 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:59 [info] 14120#14024: *76 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:59 [info] 14120#14024: *76 [lua] shell.lua:52: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:58:59 [info] 14120#14024: *76 [lua] shell.lua:53: execute(): ---- #input_data----28, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:59:00 [error] 14120#14024: *76 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:59:00 [info] 14120#14024: *76 [lua] process_status.lua:30: process shell status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:59:00 [info] 14120#14024: *76 [lua] process_status.lua:31: process shell out:
+映像名称                       PID 会话名              会话#       内存使用 
+========================= ======== ================ =========== ============
+Taskmgr.exe                  12708 Console                    3     74,596 K
+, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 10:59:00 [error] 14120#14024: *76 [lua] process_status.lua:32: process shell err:nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=taskmgr HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:00:00 [info] 14120#14024: *88 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:04:27 [info] 14120#14024: *76 client 127.0.0.1 closed keepalive connection
+2019/08/14 11:23:28 [info] 14120#14024: *89 [lua] shell.lua:35: execute(): ----socket.host----127.0.0.1, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:23:28 [info] 14120#14024: *89 [lua] shell.lua:36: execute(): ----socket.port----5000, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:23:28 [info] 14120#14024: *89 [lua] shell.lua:52: execute(): ----cmd----/cygdrive/d/openform-web/VTKRelease/VTK2GLTF.exe `cygpath -w /cygdrive/d/openform-web/VTKRelease/data/windpressure_building_11.vtk` `cygpath -w  /cygdrive/d/openform-web/VTKRelease/data` `cygpath -w /cygdrive/d/openform-web/VTKRelease/GDAL_DATA`, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:23:28 [info] 14120#14024: *89 [lua] shell.lua:53: execute(): ---- #input_data----2, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:23:29 [error] 14120#14024: *89 [lua] shell.lua:62: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:23:40 [info] 14120#14024: *91 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:23:40 [info] 14120#14024: *92 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:33:20 [notice] 18248#6832: signal process started
+2019/08/14 11:33:20 [notice] 3064#16852: reconfiguring
+2019/08/14 11:33:20 [notice] 3064#16852: using the "select" event method
+2019/08/14 11:33:20 [notice] 3064#16852: start worker processes
+2019/08/14 11:33:20 [notice] 3064#16852: start worker process 8092
+2019/08/14 11:33:20 [notice] 8092#2468: openresty/1.13.6.2
+2019/08/14 11:33:20 [info] 8092#2468: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 11:33:20 [notice] 8092#2468: create thread 5004
+2019/08/14 11:33:20 [notice] 14120#11960: gracefully shutting down
+2019/08/14 11:33:20 [notice] 8092#2468: create thread 6540
+2019/08/14 11:33:20 [notice] 14120#7532: exiting
+2019/08/14 11:33:20 [notice] 8092#2468: create thread 5056
+2019/08/14 11:33:20 [notice] 14120#14024: exiting
+2019/08/14 11:33:20 [notice] 14120#11960: exit
+2019/08/14 11:33:20 [notice] 3064#16852: worker process 14120 exited with code 0
+2019/08/14 11:33:45 [error] 8092#5004: *93 CreateFile() "D:/openform-web/VTKRelease/datawindpressure_building_11.gltf" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /download/windpressure_building_11.gltf HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:33:56 [info] 8092#5004: *94 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:33:56 [info] 8092#5004: *95 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:34:20 [notice] 14200#15432: signal process started
+2019/08/14 11:34:20 [notice] 3064#16852: reconfiguring
+2019/08/14 11:34:20 [notice] 3064#16852: using the "select" event method
+2019/08/14 11:34:20 [notice] 3064#16852: start worker processes
+2019/08/14 11:34:20 [notice] 3064#16852: start worker process 12076
+2019/08/14 11:34:20 [notice] 12076#13868: openresty/1.13.6.2
+2019/08/14 11:34:20 [info] 12076#13868: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 11:34:20 [notice] 8092#2468: gracefully shutting down
+2019/08/14 11:34:20 [notice] 12076#13868: create thread 16316
+2019/08/14 11:34:20 [notice] 8092#6540: exiting
+2019/08/14 11:34:20 [notice] 12076#13868: create thread 17820
+2019/08/14 11:34:20 [notice] 12076#13868: create thread 6668
+2019/08/14 11:34:20 [notice] 8092#5004: exiting
+2019/08/14 11:34:20 [notice] 8092#2468: exit
+2019/08/14 11:34:20 [notice] 3064#16852: worker process 8092 exited with code 0
+2019/08/14 11:35:22 [info] 12076#16316: *97 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:35:22 [info] 12076#16316: *98 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:41:36 [info] 12076#16316: *96 client 127.0.0.1 closed keepalive connection
+2019/08/14 11:45:32 [notice] 9096#1132: signal process started
+2019/08/14 11:45:32 [notice] 3064#16852: reconfiguring
+2019/08/14 11:45:32 [notice] 3064#16852: using the "select" event method
+2019/08/14 11:45:32 [notice] 3064#16852: start worker processes
+2019/08/14 11:45:32 [notice] 3064#16852: start worker process 18220
+2019/08/14 11:45:32 [notice] 18220#12524: openresty/1.13.6.2
+2019/08/14 11:45:32 [info] 18220#12524: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 11:45:32 [notice] 18220#12524: create thread 1308
+2019/08/14 11:45:32 [notice] 12076#13868: gracefully shutting down
+2019/08/14 11:45:32 [notice] 12076#17820: exiting
+2019/08/14 11:45:32 [notice] 18220#12524: create thread 4608
+2019/08/14 11:45:32 [notice] 18220#12524: create thread 3976
+2019/08/14 11:45:32 [notice] 12076#16316: exiting
+2019/08/14 11:45:32 [notice] 12076#13868: exit
+2019/08/14 11:45:32 [notice] 3064#16852: worker process 12076 exited with code 0
+2019/08/14 11:45:37 [error] 18220#1308: *99 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:1: module 'multipart' not found:
+	no field package.preload['multipart']
+	no file 'D:/openform-web/openresty/lualib/multipart.lua'
+	no file './site/lualib/multipart.ljbc'
+	no file './site/lualib/multipart/init.ljbc'
+	no file './lualib/multipart.ljbc'
+	no file './lualib/multipart/init.ljbc'
+	no file './site/lualib/multipart.lua'
+	no file './site/lualib/multipart/init.lua'
+	no file './lualib/multipart.lua'
+	no file './lualib/multipart/init.lua'
+	no file '.\multipart.lua'
+	no file 'D:\openform-web\openresty\lualib\multipart.lua'
+	no file 'D:\openform-web\openresty\lua\multipart.lua'
+	no file 'D:\openform-web\openresty\lua\multipart\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\multipart.luac'
+	no file 'D:/openform-web/openresty/lualib/multipart.so'
+	no file './site/lualib/multipart.so'
+	no file './lualib/multipart.so'
+	no file '.\multipart.dll'
+	no file 'D:\openform-web\openresty\lualib\multipart.so'
+	no file 'D:\openform-web\openresty\multipart.dll'
+	no file 'D:\openform-web\openresty\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/download_file.lua:1: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "POST /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:47:18 [error] 18220#1308: *100 lua entry thread aborted: runtime error: error loading module 'stringy' from file 'D:/openform-web/openresty/lualib/stringy.so':
+	%1 不是有效的 Win32 应用程序。
+
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/download_file.lua:1: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "POST /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 11:49:57 [notice] 11292#13040: signal process started
+2019/08/14 11:49:57 [notice] 3064#16852: reconfiguring
+2019/08/14 11:49:57 [notice] 3064#16852: using the "select" event method
+2019/08/14 11:49:57 [notice] 3064#16852: start worker processes
+2019/08/14 11:49:57 [notice] 3064#16852: start worker process 4004
+2019/08/14 11:49:58 [notice] 4004#11220: openresty/1.13.6.2
+2019/08/14 11:49:58 [info] 4004#11220: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 11:49:58 [notice] 4004#11220: create thread 16420
+2019/08/14 11:49:58 [notice] 18220#12524: gracefully shutting down
+2019/08/14 11:49:58 [notice] 18220#4608: exiting
+2019/08/14 11:49:58 [notice] 4004#11220: create thread 14428
+2019/08/14 11:49:58 [notice] 4004#11220: create thread 14896
+2019/08/14 11:49:58 [notice] 18220#1308: exiting
+2019/08/14 11:49:58 [notice] 18220#12524: exit
+2019/08/14 11:49:58 [notice] 3064#16852: worker process 18220 exited with code 0
+2019/08/14 11:50:24 [info] 4004#16420: *102 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 11:50:24 [info] 4004#16420: *103 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 12:04:06 [info] 4004#16420: *101 client 127.0.0.1 closed keepalive connection
+2019/08/14 13:46:12 [notice] 12984#16020: signal process started
+2019/08/14 13:46:12 [notice] 3064#16852: reconfiguring
+2019/08/14 13:46:12 [notice] 3064#16852: using the "select" event method
+2019/08/14 13:46:12 [notice] 3064#16852: start worker processes
+2019/08/14 13:46:12 [notice] 3064#16852: start worker process 14320
+2019/08/14 13:46:12 [notice] 14320#11164: openresty/1.13.6.2
+2019/08/14 13:46:12 [info] 14320#11164: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 13:46:12 [notice] 14320#11164: create thread 16044
+2019/08/14 13:46:12 [notice] 14320#11164: create thread 10988
+2019/08/14 13:46:12 [notice] 14320#11164: create thread 12412
+2019/08/14 13:46:12 [notice] 4004#11220: gracefully shutting down
+2019/08/14 13:46:12 [notice] 4004#14428: exiting
+2019/08/14 13:46:12 [notice] 4004#16420: exiting
+2019/08/14 13:46:12 [notice] 4004#11220: exit
+2019/08/14 13:46:12 [notice] 3064#16852: worker process 4004 exited with code 0
+2019/08/14 13:46:16 [error] 14320#16044: *104 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:17 [error] 14320#16044: *105 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:17 [error] 14320#16044: *106 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:17 [error] 14320#16044: *107 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:22 [error] 14320#16044: *108 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:22 [error] 14320#16044: *109 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:22 [error] 14320#16044: *110 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:46:52 [info] 14320#16044: *111 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:46:53 [error] 14320#16044: *112 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:47:42 [info] 14320#16044: *113 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:47:42 [info] 14320#16044: *114 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:47:42 [error] 14320#16044: *115 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:10: attempt to concatenate local 'param' (a nil value)
+stack traceback:
+coroutine 0:
+	D:/openform-web/openresty/lua-script/download_file.lua: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:47:50 [notice] 16324#6848: signal process started
+2019/08/14 13:47:50 [notice] 3064#16852: reconfiguring
+2019/08/14 13:47:50 [notice] 3064#16852: using the "select" event method
+2019/08/14 13:47:50 [notice] 3064#16852: start worker processes
+2019/08/14 13:47:50 [notice] 3064#16852: start worker process 5964
+2019/08/14 13:47:50 [notice] 5964#12460: openresty/1.13.6.2
+2019/08/14 13:47:50 [info] 5964#12460: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 13:47:50 [notice] 14320#11164: gracefully shutting down
+2019/08/14 13:47:50 [notice] 5964#12460: create thread 16052
+2019/08/14 13:47:50 [notice] 14320#10988: exiting
+2019/08/14 13:47:50 [notice] 5964#12460: create thread 17604
+2019/08/14 13:47:50 [notice] 5964#12460: create thread 10124
+2019/08/14 13:47:59 [info] 14320#16044: *116 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:47:59 [info] 14320#16044: *117 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:47:59 [notice] 14320#16044: exiting
+2019/08/14 13:47:59 [notice] 14320#11164: exit
+2019/08/14 13:47:59 [notice] 3064#16852: worker process 14320 exited with code 0
+2019/08/14 13:48:00 [error] 5964#16052: *118 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:48:00 [error] 5964#16052: *118 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:15: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:15: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:00 [info] 5964#16052: *119 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:00 [info] 5964#16052: *120 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:00 [error] 5964#16052: *121 attempt to set ngx.header.HEADER after sending out response headers, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:00 [error] 5964#16052: *121 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:15: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:15: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:14 [notice] 2660#3220: signal process started
+2019/08/14 13:49:14 [notice] 3064#16852: reconfiguring
+2019/08/14 13:49:14 [notice] 3064#16852: using the "select" event method
+2019/08/14 13:49:14 [notice] 3064#16852: start worker processes
+2019/08/14 13:49:14 [notice] 3064#16852: start worker process 16712
+2019/08/14 13:49:14 [notice] 16712#17772: openresty/1.13.6.2
+2019/08/14 13:49:14 [info] 16712#17772: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 13:49:14 [notice] 16712#17772: create thread 14504
+2019/08/14 13:49:14 [notice] 5964#12460: gracefully shutting down
+2019/08/14 13:49:14 [notice] 5964#17604: exiting
+2019/08/14 13:49:14 [notice] 16712#17772: create thread 13244
+2019/08/14 13:49:14 [notice] 16712#17772: create thread 13412
+2019/08/14 13:49:17 [info] 5964#16052: *122 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:17 [info] 5964#16052: *123 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:17 [notice] 5964#16052: exiting
+2019/08/14 13:49:17 [notice] 5964#12460: exit
+2019/08/14 13:49:17 [notice] 3064#16852: worker process 5964 exited with code 0
+2019/08/14 13:49:18 [error] 16712#14504: *124 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:9: bad argument #1 to 'exit' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'exit'
+	D:/openform-web/openresty/lua-script/download_file.lua:9: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:34 [info] 16712#14504: *125 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:34 [info] 16712#14504: *126 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:34 [error] 16712#14504: *127 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:9: bad argument #1 to 'exit' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'exit'
+	D:/openform-web/openresty/lua-script/download_file.lua:9: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:45 [notice] 17964#12080: signal process started
+2019/08/14 13:49:45 [notice] 3064#16852: reconfiguring
+2019/08/14 13:49:45 [notice] 3064#16852: using the "select" event method
+2019/08/14 13:49:45 [notice] 3064#16852: start worker processes
+2019/08/14 13:49:45 [notice] 3064#16852: start worker process 16372
+2019/08/14 13:49:46 [notice] 16372#10956: openresty/1.13.6.2
+2019/08/14 13:49:46 [info] 16372#10956: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 13:49:46 [notice] 16372#10956: create thread 7800
+2019/08/14 13:49:46 [notice] 16712#17772: gracefully shutting down
+2019/08/14 13:49:46 [notice] 16712#13244: exiting
+2019/08/14 13:49:46 [notice] 16372#10956: create thread 11120
+2019/08/14 13:49:46 [notice] 16372#10956: create thread 4560
+2019/08/14 13:49:49 [info] 16712#14504: *128 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:49 [info] 16712#14504: *129 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:49:49 [notice] 16712#14504: exiting
+2019/08/14 13:49:49 [notice] 16712#17772: exit
+2019/08/14 13:49:49 [notice] 3064#16852: worker process 16712 exited with code 0
+2019/08/14 13:49:49 [error] 16372#7800: *130 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:49 [error] 16372#7800: *131 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:49 [error] 16372#7800: *132 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:50 [error] 16372#7800: *133 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:55 [error] 16372#7800: *134 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:55 [error] 16372#7800: *135 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:49:55 [error] 16372#7800: *136 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:50:25 [info] 16372#7800: *137 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:50:25 [info] 16372#7800: *138 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:50:25 [error] 16372#7800: *139 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/download_file.lua:16: bad argument #1 to 'open' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'open'
+	D:/openform-web/openresty/lua-script/download_file.lua:16: in function <D:/openform-web/openresty/lua-script/download_file.lua:1>, client: 127.0.0.1, server: , request: "GET /downloadfile HTTP/1.1", host: "localhost:8080"
+2019/08/14 13:50:44 [notice] 18344#7384: signal process started
+2019/08/14 13:50:44 [notice] 3064#16852: reconfiguring
+2019/08/14 13:50:44 [notice] 3064#16852: using the "select" event method
+2019/08/14 13:50:44 [notice] 3064#16852: start worker processes
+2019/08/14 13:50:44 [notice] 3064#16852: start worker process 15880
+2019/08/14 13:50:44 [notice] 15880#12920: openresty/1.13.6.2
+2019/08/14 13:50:44 [info] 15880#12920: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 13:50:44 [notice] 15880#12920: create thread 9048
+2019/08/14 13:50:44 [notice] 16372#10956: gracefully shutting down
+2019/08/14 13:50:44 [notice] 15880#12920: create thread 14364
+2019/08/14 13:50:44 [notice] 16372#11120: exiting
+2019/08/14 13:50:44 [notice] 15880#12920: create thread 8092
+2019/08/14 13:50:45 [info] 16372#7800: *140 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:50:45 [info] 16372#7800: *141 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:50:45 [notice] 16372#7800: exiting
+2019/08/14 13:50:45 [notice] 16372#10956: exit
+2019/08/14 13:50:45 [notice] 3064#16852: worker process 16372 exited with code 0
+2019/08/14 13:51:21 [info] 15880#9048: *143 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:51:21 [info] 15880#9048: *144 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:52:22 [info] 15880#9048: *145 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:54:40 [notice] 12080#4104: signal process started
+2019/08/14 13:54:40 [notice] 3064#16852: reconfiguring
+2019/08/14 13:54:40 [notice] 3064#16852: using the "select" event method
+2019/08/14 13:54:40 [notice] 3064#16852: start worker processes
+2019/08/14 13:54:40 [notice] 3064#16852: start worker process 14896
+2019/08/14 13:54:41 [notice] 14896#11636: openresty/1.13.6.2
+2019/08/14 13:54:41 [info] 14896#11636: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 13:54:41 [notice] 14896#11636: create thread 15636
+2019/08/14 13:54:41 [notice] 15880#12920: gracefully shutting down
+2019/08/14 13:54:41 [notice] 15880#14364: exiting
+2019/08/14 13:54:41 [notice] 14896#11636: create thread 12152
+2019/08/14 13:54:41 [notice] 14896#11636: create thread 8148
+2019/08/14 13:54:41 [notice] 15880#9048: exiting
+2019/08/14 13:54:41 [notice] 15880#12920: exit
+2019/08/14 13:54:41 [notice] 3064#16852: worker process 15880 exited with code 0
+2019/08/14 13:55:01 [info] 14896#15636: *147 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:55:01 [info] 14896#15636: *148 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:55:13 [info] 14896#15636: *149 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 13:55:28 [info] 14896#15636: *150 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 14:00:27 [info] 14896#15636: *146 client 127.0.0.1 closed keepalive connection
+2019/08/14 14:30:03 [notice] 15420#8876: signal process started
+2019/08/14 14:30:03 [notice] 3064#16852: reconfiguring
+2019/08/14 14:30:03 [notice] 3064#16852: using the "select" event method
+2019/08/14 14:30:03 [notice] 3064#16852: start worker processes
+2019/08/14 14:30:03 [notice] 3064#16852: start worker process 14340
+2019/08/14 14:30:03 [notice] 14340#9212: openresty/1.13.6.2
+2019/08/14 14:30:03 [info] 14340#9212: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 14:30:03 [notice] 14340#9212: create thread 6716
+2019/08/14 14:30:03 [notice] 14896#11636: gracefully shutting down
+2019/08/14 14:30:03 [notice] 14340#9212: create thread 18328
+2019/08/14 14:30:03 [notice] 14896#12152: exiting
+2019/08/14 14:30:03 [notice] 14340#9212: create thread 10720
+2019/08/14 14:30:03 [notice] 14896#15636: exiting
+2019/08/14 14:30:03 [notice] 14896#11636: exit
+2019/08/14 14:30:03 [notice] 3064#16852: worker process 14896 exited with code 0
+2019/08/14 14:30:19 [error] 14340#6716: *152 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/list_file.lua:1: module 'lfs' not found:
+	no field package.preload['lfs']
+	no file 'D:/openform-web/openresty/lualib/lfs.lua'
+	no file './site/lualib/lfs.ljbc'
+	no file './site/lualib/lfs/init.ljbc'
+	no file './lualib/lfs.ljbc'
+	no file './lualib/lfs/init.ljbc'
+	no file './site/lualib/lfs.lua'
+	no file './site/lualib/lfs/init.lua'
+	no file './lualib/lfs.lua'
+	no file './lualib/lfs/init.lua'
+	no file '.\lfs.lua'
+	no file 'D:\openform-web\openresty\lualib\lfs.lua'
+	no file 'D:\openform-web\openresty\lua\lfs.lua'
+	no file 'D:\openform-web\openresty\lua\lfs\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\lfs.luac'
+	no file 'D:/openform-web/openresty/lualib/lfs.so'
+	no file './site/lualib/lfs.so'
+	no file './lualib/lfs.so'
+	no file '.\lfs.dll'
+	no file 'D:\openform-web\openresty\lualib\lfs.so'
+	no file 'D:\openform-web\openresty\lfs.dll'
+	no file 'D:\openform-web\openresty\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/list_file.lua:1: in function <D:/openform-web/openresty/lua-script/list_file.lua:1>, client: 127.0.0.1, server: , request: "GET /listfile?id=data HTTP/1.1", host: "localhost:8080"
+2019/08/14 14:30:30 [info] 14340#6716: *153 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 14:30:30 [info] 14340#6716: *154 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 14:54:51 [error] 14340#6716: *155 lua entry thread aborted: runtime error: D:/openform-web/openresty/lua-script/list_file.lua:1: module 'lfs' not found:
+	no field package.preload['lfs']
+	no file 'D:/openform-web/openresty/lualib/lfs.lua'
+	no file './site/lualib/lfs.ljbc'
+	no file './site/lualib/lfs/init.ljbc'
+	no file './lualib/lfs.ljbc'
+	no file './lualib/lfs/init.ljbc'
+	no file './site/lualib/lfs.lua'
+	no file './site/lualib/lfs/init.lua'
+	no file './lualib/lfs.lua'
+	no file './lualib/lfs/init.lua'
+	no file '.\lfs.lua'
+	no file 'D:\openform-web\openresty\lualib\lfs.lua'
+	no file 'D:\openform-web\openresty\lua\lfs.lua'
+	no file 'D:\openform-web\openresty\lua\lfs\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\lfs.luac'
+	no file 'D:/openform-web/openresty/lualib/lfs.so'
+	no file './site/lualib/lfs.so'
+	no file './lualib/lfs.so'
+	no file '.\lfs.dll'
+	no file 'D:\openform-web\openresty\lualib\lfs.so'
+	no file 'D:\openform-web\openresty\lfs.dll'
+	no file 'D:\openform-web\openresty\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/list_file.lua:1: in function <D:/openform-web/openresty/lua-script/list_file.lua:1>, client: 127.0.0.1, server: , request: "GET /listfile?id=data HTTP/1.1", host: "localhost:8080"
+2019/08/14 14:55:51 [info] 14340#6716: *156 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 14:55:52 [info] 14340#6716: *157 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 14:55:52 [error] 14340#6716: *158 lua entry thread aborted: runtime error: error loading module 'lfs' from file '.\lfs.dll':
+	%1 不是有效的 Win32 应用程序。
+
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	D:/openform-web/openresty/lua-script/list_file.lua:1: in function <D:/openform-web/openresty/lua-script/list_file.lua:1>, client: 127.0.0.1, server: , request: "GET /listfile?id=data HTTP/1.1", host: "localhost:8080"
+2019/08/14 14:56:10 [info] 14340#6716: *159 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 14:56:10 [info] 14340#6716: *160 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 15:11:20 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:11:20 [notice] 8876#8544: openresty/1.15.8.1
+2019/08/14 15:11:20 [info] 8876#8544: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:11:20 [notice] 8876#8544: start worker processes
+2019/08/14 15:11:20 [notice] 8876#8544: start worker process 9180
+2019/08/14 15:11:20 [notice] 9180#11560: openresty/1.15.8.1
+2019/08/14 15:11:20 [info] 9180#11560: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:11:20 [notice] 9180#11560: create thread 11668
+2019/08/14 15:11:20 [notice] 9180#11560: create thread 5612
+2019/08/14 15:11:20 [notice] 9180#11560: create thread 3872
+2019/08/14 15:11:27 [error] 9180#11668: *1 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:11:27 [error] 9180#11668: *1 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:11:27 [error] 9180#11668: *1 [lua] shell.lua:53: execute(): ----cmd----/cygdrive/d/openform-web/VTKRelease/VTK2GLTF.exe `cygpath -w /cygdrive/d/openform-web/VTKRelease/data/windpressure_building_11.vtk` `cygpath -w  /cygdrive/d/openform-web/VTKRelease/data` `cygpath -w /cygdrive/d/openform-web/VTKRelease/GDAL_DATA`, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:11:27 [error] 9180#11668: *1 [lua] shell.lua:54: execute(): ---- #input_data----2, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:11:29 [error] 9180#11668: *1 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:12:28 [error] 9180#11668: *1 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:12:28 [error] 9180#11668: *1 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:12:28 [error] 9180#11668: *1 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:12:28 [error] 9180#11668: *1 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:12:28 [error] 9180#11668: *1 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:02 [error] 9180#11668: *1 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:02 [error] 9180#11668: *1 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:02 [error] 9180#11668: *1 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:02 [error] 9180#11668: *1 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:03 [error] 9180#11668: *1 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:43 [notice] 8876#8544: reconfiguring
+2019/08/14 15:13:43 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:13:43 [notice] 8876#8544: start worker processes
+2019/08/14 15:13:43 [notice] 8876#8544: start worker process 14748
+2019/08/14 15:13:43 [notice] 14748#13524: openresty/1.15.8.1
+2019/08/14 15:13:43 [info] 14748#13524: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:13:43 [notice] 14748#13524: create thread 12144
+2019/08/14 15:13:43 [notice] 9180#11560: gracefully shutting down
+2019/08/14 15:13:43 [notice] 9180#5612: exiting
+2019/08/14 15:13:43 [notice] 14748#13524: create thread 17984
+2019/08/14 15:13:43 [notice] 14748#13524: create thread 12920
+2019/08/14 15:13:43 [notice] 9180#11668: exiting
+2019/08/14 15:13:43 [notice] 9180#11560: exit
+2019/08/14 15:13:43 [notice] 8876#8544: worker process 9180 exited with code 0
+2019/08/14 15:13:48 [error] 14748#12144: *5 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:48 [error] 14748#12144: *5 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:48 [error] 14748#12144: *5 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:48 [error] 14748#12144: *5 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:48 [error] 14748#12144: *5 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:59 [error] 14748#12144: *7 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:59 [error] 14748#12144: *7 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:59 [error] 14748#12144: *7 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:59 [error] 14748#12144: *7 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:13:59 [error] 14748#12144: *7 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:10 [info] 14748#12144: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 15:14:10 [info] 14748#12144: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2019/08/14 15:14:36 [error] 14748#12144: *5 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:36 [error] 14748#12144: *5 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:36 [error] 14748#12144: *5 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:36 [error] 14748#12144: *5 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:37 [error] 14748#12144: *5 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:41 [error] 14748#12144: *5 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:41 [error] 14748#12144: *5 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:41 [error] 14748#12144: *5 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:41 [error] 14748#12144: *5 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:14:42 [error] 14748#12144: *5 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:15:26 [notice] 8876#8544: reconfiguring
+2019/08/14 15:15:26 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:15:26 [notice] 8876#8544: start worker processes
+2019/08/14 15:15:26 [notice] 8876#8544: start worker process 17616
+2019/08/14 15:15:26 [notice] 17616#17536: openresty/1.15.8.1
+2019/08/14 15:15:26 [info] 17616#17536: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:15:26 [notice] 17616#17536: create thread 1120
+2019/08/14 15:15:26 [notice] 14748#13524: gracefully shutting down
+2019/08/14 15:15:26 [notice] 17616#17536: create thread 9152
+2019/08/14 15:15:26 [notice] 14748#17984: exiting
+2019/08/14 15:15:26 [notice] 17616#17536: create thread 10560
+2019/08/14 15:15:26 [notice] 14748#12144: exiting
+2019/08/14 15:15:26 [notice] 14748#13524: exit
+2019/08/14 15:15:26 [notice] 8876#8544: worker process 14748 exited with code 0
+2019/08/14 15:15:29 [error] 17616#1120: *13 [lua] shell.lua:35: execute(): ----socket.host----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:15:29 [error] 17616#1120: *13 [lua] shell.lua:36: execute(): ----socket.port----nil, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:15:29 [error] 17616#1120: *13 [lua] shell.lua:53: execute(): ----cmd----tasklist /fi , client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:15:29 [error] 17616#1120: *13 [lua] shell.lua:54: execute(): ---- #input_data----26, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:15:30 [error] 17616#1120: *13 [lua] shell.lua:63: execute(): ---receive status code ----status:0, client: 127.0.0.1, server: , request: "GET /queryproc?name=nginx HTTP/1.1", host: "localhost:8080"
+2019/08/14 15:19:31 [notice] 8876#8544: worker process 17616 exited with code C0000005
+2019/08/14 15:19:31 [notice] 8876#8544: start worker process 11004
+2019/08/14 15:19:31 [notice] 11004#15812: openresty/1.15.8.1
+2019/08/14 15:19:31 [info] 11004#15812: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:19:31 [notice] 11004#15812: create thread 8020
+2019/08/14 15:19:31 [notice] 11004#15812: create thread 15052
+2019/08/14 15:19:31 [notice] 11004#15812: create thread 11200
+2019/08/14 15:20:08 [notice] 8876#8544: worker process 11004 exited with code C0000005
+2019/08/14 15:20:08 [notice] 8876#8544: start worker process 10044
+2019/08/14 15:20:08 [notice] 10044#16000: openresty/1.15.8.1
+2019/08/14 15:20:08 [info] 10044#16000: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:20:08 [notice] 10044#16000: create thread 13636
+2019/08/14 15:20:08 [notice] 10044#16000: create thread 2404
+2019/08/14 15:20:08 [notice] 10044#16000: create thread 15524
+2019/08/14 15:20:58 [notice] 8876#8544: reconfiguring
+2019/08/14 15:20:58 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:20:58 [notice] 8876#8544: start worker processes
+2019/08/14 15:20:58 [notice] 8876#8544: start worker process 14392
+2019/08/14 15:20:58 [notice] 14392#17364: openresty/1.15.8.1
+2019/08/14 15:20:58 [info] 14392#17364: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:20:58 [notice] 10044#16000: gracefully shutting down
+2019/08/14 15:20:58 [notice] 14392#17364: create thread 12920
+2019/08/14 15:20:58 [notice] 10044#2404: exiting
+2019/08/14 15:20:58 [notice] 14392#17364: create thread 15568
+2019/08/14 15:20:58 [notice] 14392#17364: create thread 13524
+2019/08/14 15:20:59 [notice] 10044#13636: exiting
+2019/08/14 15:20:59 [notice] 10044#16000: exit
+2019/08/14 15:20:59 [notice] 8876#8544: worker process 10044 exited with code 0
+2019/08/14 15:21:08 [notice] 8876#8544: worker process 14392 exited with code C0000005
+2019/08/14 15:21:08 [notice] 8876#8544: start worker process 13580
+2019/08/14 15:21:08 [notice] 13580#14416: openresty/1.15.8.1
+2019/08/14 15:21:08 [info] 13580#14416: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:21:08 [notice] 13580#14416: create thread 17104
+2019/08/14 15:21:08 [notice] 13580#14416: create thread 9792
+2019/08/14 15:21:08 [notice] 13580#14416: create thread 14572
+2019/08/14 15:21:55 [notice] 8876#8544: reconfiguring
+2019/08/14 15:21:55 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:21:55 [notice] 8876#8544: start worker processes
+2019/08/14 15:21:55 [notice] 8876#8544: start worker process 13168
+2019/08/14 15:21:55 [notice] 13168#4172: openresty/1.15.8.1
+2019/08/14 15:21:55 [info] 13168#4172: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:21:55 [notice] 13168#4172: create thread 2396
+2019/08/14 15:21:55 [notice] 13580#14416: gracefully shutting down
+2019/08/14 15:21:55 [notice] 13168#4172: create thread 492
+2019/08/14 15:21:55 [notice] 13580#9792: exiting
+2019/08/14 15:21:55 [notice] 13168#4172: create thread 3872
+2019/08/14 15:21:55 [notice] 13580#17104: exiting
+2019/08/14 15:21:55 [notice] 13580#14416: exit
+2019/08/14 15:21:55 [notice] 8876#8544: worker process 13580 exited with code 0
+2019/08/14 15:22:03 [notice] 8876#8544: worker process 13168 exited with code C0000005
+2019/08/14 15:22:03 [notice] 8876#8544: start worker process 10336
+2019/08/14 15:22:03 [notice] 10336#12044: openresty/1.15.8.1
+2019/08/14 15:22:03 [info] 10336#12044: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:22:03 [notice] 10336#12044: create thread 9152
+2019/08/14 15:22:03 [notice] 10336#12044: create thread 10560
+2019/08/14 15:22:03 [notice] 10336#12044: create thread 1120
+2019/08/14 15:22:45 [notice] 8876#8544: reconfiguring
+2019/08/14 15:22:45 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:22:45 [notice] 8876#8544: start worker processes
+2019/08/14 15:22:45 [notice] 8876#8544: start worker process 13668
+2019/08/14 15:22:45 [notice] 13668#9572: openresty/1.15.8.1
+2019/08/14 15:22:45 [info] 13668#9572: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:22:45 [notice] 13668#9572: create thread 11196
+2019/08/14 15:22:45 [notice] 10336#12044: gracefully shutting down
+2019/08/14 15:22:45 [notice] 10336#10560: exiting
+2019/08/14 15:22:45 [notice] 13668#9572: create thread 17672
+2019/08/14 15:22:45 [notice] 13668#9572: create thread 3804
+2019/08/14 15:22:46 [notice] 10336#9152: exiting
+2019/08/14 15:22:46 [notice] 10336#12044: exit
+2019/08/14 15:22:46 [notice] 8876#8544: worker process 10336 exited with code 0
+2019/08/14 15:23:09 [notice] 8876#8544: worker process 13668 exited with code C0000005
+2019/08/14 15:23:09 [notice] 8876#8544: start worker process 4164
+2019/08/14 15:23:09 [notice] 4164#340: openresty/1.15.8.1
+2019/08/14 15:23:09 [info] 4164#340: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:23:09 [notice] 4164#340: create thread 12684
+2019/08/14 15:23:09 [notice] 4164#340: create thread 4604
+2019/08/14 15:23:09 [notice] 4164#340: create thread 9548
+2019/08/14 15:24:39 [notice] 8876#8544: reconfiguring
+2019/08/14 15:24:39 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:24:39 [notice] 8876#8544: start worker processes
+2019/08/14 15:24:39 [notice] 8876#8544: start worker process 10028
+2019/08/14 15:24:39 [notice] 10028#3500: openresty/1.15.8.1
+2019/08/14 15:24:39 [info] 10028#3500: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:24:39 [notice] 4164#340: gracefully shutting down
+2019/08/14 15:24:39 [notice] 10028#3500: create thread 15568
+2019/08/14 15:24:39 [notice] 4164#4604: exiting
+2019/08/14 15:24:39 [notice] 10028#3500: create thread 13524
+2019/08/14 15:24:39 [notice] 10028#3500: create thread 12920
+2019/08/14 15:24:40 [notice] 4164#12684: exiting
+2019/08/14 15:24:40 [notice] 4164#340: exit
+2019/08/14 15:24:40 [notice] 8876#8544: worker process 4164 exited with code 0
+2019/08/14 15:25:09 [notice] 8876#8544: reconfiguring
+2019/08/14 15:25:09 [notice] 8876#8544: using the "select" event method
+2019/08/14 15:25:09 [notice] 8876#8544: start worker processes
+2019/08/14 15:25:09 [notice] 8876#8544: start worker process 15008
+2019/08/14 15:25:09 [notice] 15008#13604: openresty/1.15.8.1
+2019/08/14 15:25:09 [info] 15008#13604: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:25:09 [notice] 15008#13604: create thread 1880
+2019/08/14 15:25:09 [notice] 10028#3500: gracefully shutting down
+2019/08/14 15:25:09 [notice] 15008#13604: create thread 16360
+2019/08/14 15:25:09 [notice] 10028#13524: exiting
+2019/08/14 15:25:09 [notice] 15008#13604: create thread 1432
+2019/08/14 15:25:10 [notice] 10028#15568: exiting
+2019/08/14 15:25:10 [notice] 10028#3500: exit
+2019/08/14 15:25:10 [notice] 8876#8544: worker process 10028 exited with code 0
+2019/08/14 15:25:17 [notice] 8876#8544: worker process 15008 exited with code C0000005
+2019/08/14 15:25:17 [notice] 8876#8544: start worker process 17620
+2019/08/14 15:25:17 [notice] 17620#14572: openresty/1.15.8.1
+2019/08/14 15:25:17 [info] 17620#14572: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:25:17 [notice] 17620#14572: create thread 3040
+2019/08/14 15:25:17 [notice] 17620#14572: create thread 14120
+2019/08/14 15:25:17 [notice] 17620#14572: create thread 13296
+2019/08/14 15:25:45 [notice] 7788#4964: using the "select" event method
+2019/08/14 15:25:45 [notice] 7788#4964: openresty/1.15.8.1
+2019/08/14 15:25:45 [info] 7788#4964: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:25:45 [notice] 7788#4964: start worker processes
+2019/08/14 15:25:45 [notice] 7788#4964: start worker process 13132
+2019/08/14 15:25:45 [notice] 13132#5716: openresty/1.15.8.1
+2019/08/14 15:25:45 [info] 13132#5716: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:25:45 [notice] 13132#5716: create thread 12556
+2019/08/14 15:25:45 [notice] 13132#5716: create thread 12300
+2019/08/14 15:25:45 [notice] 13132#5716: create thread 2996
+2019/08/14 15:25:56 [notice] 7788#4964: worker process 13132 exited with code C0000005
+2019/08/14 15:25:56 [notice] 7788#4964: start worker process 5784
+2019/08/14 15:25:56 [notice] 5784#14096: openresty/1.15.8.1
+2019/08/14 15:25:56 [info] 5784#14096: OS: 300000 build:17134, "", suite:300, type:1
+2019/08/14 15:25:56 [notice] 5784#14096: create thread 11396
+2019/08/14 15:25:56 [notice] 5784#14096: create thread 9116
+2019/08/14 15:25:56 [notice] 5784#14096: create thread 1616
