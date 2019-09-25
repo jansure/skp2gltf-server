@@ -1,0 +1,20 @@
+target/
+logs/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.metadata
+
+### IntelliJ IDEA ###
+.mvn
+.idea
+*.iws
+*.ipr
+*.iml
+
