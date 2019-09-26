@@ -6,7 +6,7 @@ cygwin64提供windows环境下可运行的转换库。
 
 
 skp2gltp微服务部署操作步骤：
-1、解压cygwin64程序库，并且执行mintty.exe
+1、解压cygwin64程序库（下载地址：http://49.4.8.123:28888/file-server/cygwin64.zip），并且执行mintty.exe
 2、在mintty.exe命令行下进入到git clone的目录Skp2Gltf，启动./sockproc.exe 5000 - -foreground(若此端口被占用，根据实际情况换端口号)
 3、再次启动，并且在mintty.exe命令行下进入fileserver文件夹，启动file-server-master.exe  执行./file-server-master.exe -dir . -port :8081
 4、再次启动，并且在mintty.exe命令行下启动nginx，若nginx端口被占用，则修改nginix的端口
