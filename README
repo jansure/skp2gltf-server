@@ -1,0 +1,16 @@
+SAAS框架主要应用到，在不需要改造任何现有程序的基础上，做到把现有的程序微服务化。这样既满足了SAAS化的需求，又对目前开发者没有任何技术上的转型要求。
+ 以下是此框架包含的服务：
+Nginx：提供微服务，维护端口、链接等网络基础服务
+File-server：提供文件服务
+
+
+
+skp2gltp微服务（仓库地址：http://49.4.66.187/yangpengfei/skp2gltf-server）部署操作步骤：
+
+ 进入到git clone的目录Skp2Gltf，启动./sockproc.exe 5000 - -foreground(若此端口被占用，根据实际情况换端口号)
+进入fileserver文件夹，启动file-server-master.exe  执行./file-server-master.exe -dir . -port :8081
+启动nginx，若nginx端口被占用，则修改nginix的端口
+
+备注：
+若5000端口有改变，则进入lua-script，改动 SKP2GLTF.lua里边的端口即可
+若8081端口有改变，则计入lua-script，改动upload_file.lua里边的8081端口即可。
